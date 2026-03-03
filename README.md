@@ -12,6 +12,7 @@
 
 ## 🔥 Updates
 
+- **[2026-03]** 🤗 VABench-P and VABench-V benchmarks are now available on Hugging Face Datasets: [[VABench-P](https://huggingface.co/datasets/IffYuan/VABench-P)] [[VABench-V](https://huggingface.co/datasets/IffYuan/vabench-v)]
 
 - **[2026-03-03]** 📦 **Dataset Open-Sourced!** The Embodied-R1 dataset is now publicly available at [Hugging Face Datasets](https://huggingface.co/datasets/IffYuan/Embodied-R1-Dataset).
 

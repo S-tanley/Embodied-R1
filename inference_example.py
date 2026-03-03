@@ -19,22 +19,22 @@ DEFAULT_CKPT_PATH = 'IffYuan/Embodied-R1-3B-v1'
 
 EXAMPLE = [
     {
-        "image": "exsample_data/put the red block on top of the yellow block.png",
+        "image": "example_data/put the red block on top of the yellow block.png",
         "text": "put the red block on top of the yellow block",
         "mode": "VTG"
     },
     {
-        "image": "exsample_data/put pepper in pan.png",
+        "image": "example_data/put pepper in pan.png",
         "text": "put pepper in pan",
         "mode": "RRG"
     },
     {
-        "image":"exsample_data/roborefit_18992.png",
+        "image":"example_data/roborefit_18992.png",
         "text":"bring me the camel model",
         "mode":"REG"
     },
     {
-        "image":"exsample_data/handal_090002.png",
+        "image":"example_data/handal_090002.png",
         "text":"loosening stuck bolts",
         "mode":"OFG"
     },

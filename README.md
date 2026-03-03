@@ -1,10 +1,10 @@
-# Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation
+# Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation (ICLR2026)
 
 <div align="center">
 
 **Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation**
 
-[[🌐 Website](https://embodied-r1.github.io)] [[📄 Paper](http://arxiv.org/abs/2508.13998)] [[🤗 Models](https://huggingface.co/collections/IffYuan/embodied-r1-684a8474b3a49210995f9081)] [[🎯 Datasets](https://huggingface.co/collections/IffYuan/embodied-r1-684a8474b3a49210995f9081)] [[💬 Demo](#demo)]
+[[🌐 Website](https://embodied-r1.github.io)] [[📄 Paper](http://arxiv.org/abs/2508.13998)] [[🏆 ICLR2026 Version](https://openreview.net/forum?id=i5wlozMFsQ)] [[🤗 Model](https://huggingface.co/IffYuan/Embodied-R1-3B-v1)] [[🎯 Dataset](https://huggingface.co/datasets/IffYuan/Embodied-R1-Dataset)]
 
 </div>
 
@@ -12,11 +12,16 @@
 
 ## 🔥 Updates
 
-- **[2025-08-21]** 🎉 **Inference Scripts Released!** We have released our inference prompts and scripts for embodied pointing abilities. 
-  
-- **[2025-08-20]** 🎉 **Models and Datasets Released!** We have released our pre-trained models, training datasets, and comprehensive evaluation benchmarks. Check out our [HuggingFace collection](https://huggingface.co/collections/IffYuan/embodied-r1-684a8474b3a49210995f9081) for all available resources.
 
-- **[Coming Soon]** 📚 Complete training code and detailed training tutorials will be released soon. Stay tuned!
+- **[2026-03-03]** 📦 **Dataset Open-Sourced!** The Embodied-R1 dataset is now publicly available at [Hugging Face Datasets](https://huggingface.co/datasets/IffYuan/Embodied-R1-Dataset).
+
+- **[2026-01-27]** 🏆 **Accepted by (ICLR2026)!** Embodied-R1 are accepted to **The Fourteenth International Conference on Learning Representations (ICLR2026)**.
+
+- **[2025-08-22]** 🤗 **Model Released!** The Embodied-R1 3B v1 checkpoint is now available at [Hugging Face Model Hub](https://huggingface.co/IffYuan/Embodied-R1-3B-v1).
+
+- **[2025-08-21]** 🚀 **Inference Scripts Released!** We have released our inference prompts and scripts for embodied pointing abilities.
+
+- **[2025-08-20]** 📚 **Models and Datasets Released!** We have released our pre-trained models, training datasets, and comprehensive evaluation benchmarks. Check out our [HuggingFace collection](https://huggingface.co/collections/IffYuan/embodied-r1-684a8474b3a49210995f9081) for all available resources.
 
 ---
 
@@ -137,17 +142,40 @@ python hf_inference_vabench_point.py
 
 ## 🧠 Training
 
-We plan to release the complete training code, datasets, and detailed guidelines soon. Stay tuned!
+Training scripts are available in [`scripts/`](scripts):
+
+```bash
+# Stage 1 training
+bash scripts/stage_1_embodied_r1.sh
+
+# Stage 2 training (set your stage-1 checkpoint path first)
+bash scripts/stage_2_embodied_r1.sh
+```
+
+Key training files:
+- `scripts/config_stage1.yaml`
+- `scripts/config_stage2.yaml`
+- `scripts/stage_1_embodied_r1.sh`
+- `scripts/stage_2_embodied_r1.sh`
+- `scripts/model_merger.py` (for checkpoint merging and HF export)
 
 ## 📜 Citation
 
-If you use our work in your research, please cite our paper:
+If you use our work in your research, please cite:
 
 ```bibtex
-@article{yuan2025embodiedr1,
-  title={Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation},
-  author={Yuan, Yifu and Cui, Haiqin and Huang, Yaoting and Chen, Yibin and Ni, Fei and Dong, Zibin and Li, Pengyi and Zheng, Yan and Hao, Jianye},
-  year={2025}
+@article{yuan2026embodied,
+  title={Embodied-r1: Reinforced embodied reasoning for general robotic manipulation},
+  author={Yuan, Yifu and Cui, Haiqin and Huang, Yaoting and Chen, Yibin and Ni, Fei and Dong, Zibin and Li, Pengyi and Zheng, Yan and Tang, Hongyao and Hao, Jianye},
+  journal={The Fourteenth International Conference on Learning Representations},
+  year={2026}
+}
+
+@article{yuan2026seeing,
+  title={From seeing to doing: Bridging reasoning and decision for robotic manipulation},
+  author={Yuan, Yifu and Cui, Haiqin and Chen, Yibin and Dong, Zibin and Ni, Fei and Kou, Longxin and Liu, Jinyi and Li, Pengyi and Zheng, Yan and Hao, Jianye},
+  journal={The Fourteenth International Conference on Learning Representations},
+  year={2026}
 }
 ```
 </div>

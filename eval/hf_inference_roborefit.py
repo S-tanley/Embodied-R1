@@ -1,6 +1,8 @@
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, AutoTokenizer
 import torch
 from datasets import load_dataset
+import pandas as pd
+from io import BytesIO
 from accelerate import Accelerator
 from accelerate.utils import set_seed
 from accelerate.utils.dataclasses import DistributedType
@@ -95,16 +97,14 @@ def visualize_bbox_and_points(image, bbox, points, save_path):
 
 
 def process_sample(sample, model, processor, device, reasoning_model, instruct_following, gen_args, vis_dir, disable_visualization=True):
-    instruction = sample['problem'].strip()
+    instruction = sample['question'].strip()
     question = f"Provide one or more points coordinate of objects region this sentence describes: {instruction}. The results are presented in a format <point>[[x1,y1], [x2,y2], ...]</point>."
     question = question + '\n' + instruct_following
     question = textwrap.dedent(question).strip()
 
-    bbox = sample['bbox']
-    image_base_dir = "/mnt/kaiwu-group-x4-sh/iffyuan/roborefit/test_images/"
-    image_path = os.path.join(image_base_dir, sample['image'])
-    image = Image.open(image_path)
-    doc_id = sample.get('id', random.randint(0, 100000))
+    bbox = [int(x) for x in sample['bbox']]
+    image = Image.open(BytesIO(sample['image']['bytes']))
+    doc_id = sample.get('question_id', random.randint(0, 100000))
 
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
@@ -218,8 +218,10 @@ def main(task_name, model_name, model_path, reasoning_model, max_pixels, min_pix
             logger.info(f"Using {accelerator.num_processes} devices for data parallel processing")
     
     with accelerator.main_process_first():
-        json_dataset = json.load(open(huggingface_dataset_name, 'r'))
-        test_data = json_dataset
+        dfs = [pd.read_parquet(p) for p in huggingface_dataset_name]
+        import pandas as _pd
+        test_data = _pd.concat(dfs, ignore_index=True).to_dict(orient='records')
+        logger.info(f"Test data samples: {len(test_data)}")
     
     process_idx = accelerator.process_index
     num_processes = accelerator.num_processes
@@ -278,7 +280,7 @@ def main(task_name, model_name, model_path, reasoning_model, max_pixels, min_pix
 
 if __name__ == "__main__":
     task_name = "RoboRefit"
-    huggingface_dataset_name = "roborefit_test.json"
+    huggingface_dataset_name = ["eval/data/roborefit_test_0.parquet", "eval/data/roborefit_test_1.parquet"]
     split = "test"
     disable_visualization = False
     use_flash_attention = False

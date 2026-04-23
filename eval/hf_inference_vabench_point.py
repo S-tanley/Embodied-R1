@@ -279,7 +279,7 @@ if __name__ == "__main__":
 
     model_name = "Embodied-R1-3B"
     model_path = "IffYuan/Embodied-R1-3B-v1"
-    dataset_path = "/mnt/path/iffyuan/all-seeing/all-seeing-v2/process_rl_data/FSD_points_rft_fsd_free_point_train_32790_test_300_0425/test.parquet"
+    dataset_path = "eval/data/vabench_point_test.parquet"
     reasoning_model = True
     
     vis_dir = f"logs/visualizations/{task_name}_{model_name}"

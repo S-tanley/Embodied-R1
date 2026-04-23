@@ -13,6 +13,8 @@ import textwrap
 from PIL import Image
 from collections import defaultdict
 import numpy as np
+import pandas as pd
+from io import BytesIO
 
 def pixel_to_world(x, y, dep, img_width=2160, img_height=1440, camera_view_matrix_inv=np.array([[0., 1., 0., 0.],[0.9028605, 0., -0.42993355, 0.],[-0.42993355, 0., -0.9028605, 0.],[1., 0., 1.2, 1.]]), camera_proj_matrix=np.array([[1.7320507, 0., 0., 0.],[0., 2.5980759, 0., 0.],[0., 0., 0., -1.],[0., 0., 0.05, 0.]])):
     vinv = torch.tensor(camera_view_matrix_inv).float()
@@ -128,22 +130,18 @@ def parse_points_from_output(output):
     return points
 
 def process_sample(sample, model, processor, device, reasoning_model, instruct_following, gen_args):
-    image_path = sample["images"][0].replace("\\", "/")
-    base_path = "/mnt/path/iffyuan/all-seeing/all-seeing-v2/process_rl_data"
-    abs_image_path = os.path.join(base_path, image_path)
+    image = Image.open(BytesIO(sample["images"][0])).convert("RGB")
 
-    with open(abs_image_path, "rb") as image_file:
-        image = Image.open(image_file).convert("RGB")
-
-    task_instruction = sample["position_instruction"]
-    question = f"You are currently a robot performing robotic manipulation tasks. The task instruction is: {task_instruction}. " \
-                "Use 2D points to mark the target location where the object you need to manipulate in the task should ultimately be moved."
-    question = question + '\n' + instruct_following
-    question = textwrap.dedent(question).strip()
-    
-    answer = sample["answer"]
-    position_tag = sample.get("position_tag", "unknown")
+    answer_raw = sample["answer"]
+    answer_raw = re.sub(r"<type>.*?</type>", "", answer_raw).strip()
+    answer = json.loads(answer_raw)
+    position_tag = answer.get("direction", "unknown")
     doc_id = sample.get("id", "unknown")
+
+    task_instruction = sample["problem"]
+    task_instruction = re.sub(r"RGB image:<image>,?\s*Depth image:<image>\s*", "", task_instruction).strip()
+    question = task_instruction + '\n' + instruct_following
+    question = textwrap.dedent(question).strip()
 
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
@@ -259,8 +257,7 @@ def main(task_name, model_name, model_path, reasoning_model, max_pixels, min_pix
             logger.info(f"Using {accelerator.num_processes} devices for data parallel processing")
     
     with accelerator.main_process_first():
-        with open(dataset_path, 'r') as f:
-            test_data = json.load(f)
+        test_data = pd.read_parquet(dataset_path).to_dict(orient='records')
         logger.info(f"Test data samples: {len(test_data)}")
     
     process_idx = accelerator.process_index
@@ -346,7 +343,7 @@ if __name__ == "__main__":
     task_name = "Open6dor-Custom"
     model_name = "Embodied-R1-3B-2D"
     model_path = "IffYuan/Embodied-R1-3B-v1"
-    dataset_path = "3d_dataset.json"
+    dataset_path = "eval/data/open6dor_test.parquet"
     reasoning_model = True
     use_flash_attention = False
 

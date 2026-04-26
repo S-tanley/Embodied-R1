@@ -4,16 +4,42 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "verl"
-dynamic = [
-    "version",
-    "dependencies",
-    "optional-dependencies",
-    "requires-python",
-    "authors",
-    "description",
-    "readme",
-    "license"
+version = "0.2.0.dev"
+description = "An Efficient, Scalable, Multi-Modality RL Training Framework based on veRL"
+readme = "README.md"
+license = {text = "Apache 2.0 License"}
+requires-python = ">=3.11, <3.14"
+authors = [
+    {name = "verl", email = "zhangchi.usc1992@bytedance.com"},
 ]
+dependencies = [
+    "accelerate==1.13.0",
+    "codetiming==1.4.0",
+    "datasets==4.8.4",
+    "flash-attn==2.8.3",
+    "liger-kernel==0.7.0",
+    "mathruler==0.1.0",
+    "numpy==1.26.4",
+    "omegaconf==2.3.0",
+    "pandas==3.0.2",
+    "peft==0.19.1",
+    "pillow==12.2.0",
+    "pyarrow==24.0.0",
+    "pylatexenc==2.10",
+    "qwen-vl-utils==0.0.14",
+    "ray[default]==2.40.0",
+    "tensordict==0.12.2",
+    "torchdata==0.11.0",
+    "transformers==4.49.0",
+    "vllm==0.7.3",
+    "wandb==0.26.0",
+]
+
+[project.optional-dependencies]
+dev = ["pre-commit", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/volcengine/verl"
 
 [tool.ruff]
 target-version = "py39"

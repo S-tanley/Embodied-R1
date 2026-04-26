@@ -6,6 +6,7 @@
 #   -g GPUS           Comma-separated GPU IDs (default: 0)
 #   -n NUM_PROCESSES  Number of processes for accelerate (default: 1)
 #   -p PORT           Main process port base (default: 54320; increments per eval)
+#   -l LOG_DIR        Directory to write run_*.log files (default: ../logs)
 #   -h                Show this help
 #
 # EVAL can be one or more of:
@@ -24,6 +25,7 @@ cd "$(dirname "$0")"
 GPUS="0"
 NUM_PROCESSES=1
 PORT_BASE=54320
+LOG_DIR="../logs"
 
 declare -A SCRIPT_MAP=(
     [3d]=hf_inference_3d.py
@@ -42,11 +44,12 @@ declare -A SCRIPT_MAP=(
 ALL_EVALS="3d affordance blink crpe cvbench embspatial roborefit sat vabench_point vabench_trace where2place"
 
 # ---------- parse options ----------
-while getopts "g:n:p:h" opt; do
+while getopts "g:n:p:l:h" opt; do
     case $opt in
         g) GPUS="$OPTARG" ;;
         n) NUM_PROCESSES="$OPTARG" ;;
         p) PORT_BASE="$OPTARG" ;;
+        l) LOG_DIR="$OPTARG" ;;
         h)
             head -20 "$0" | grep "^#" | sed 's/^# \?//'
             exit 0
@@ -73,7 +76,7 @@ done
 
 # ---------- run ----------
 PORT=$PORT_BASE
-mkdir -p ../logs
+mkdir -p "${LOG_DIR}"
 
 echo "GPUs: $GPUS  |  num_processes: $NUM_PROCESSES"
 echo "Evals: $SELECTED"
@@ -81,7 +84,7 @@ echo ""
 
 for name in $SELECTED; do
     script="${SCRIPT_MAP[$name]}"
-    logfile="../logs/run_${name}.log"
+    logfile="${LOG_DIR}/run_${name}.log"
 
     echo "=========================================="
     echo "Running: $script  (port $PORT)"

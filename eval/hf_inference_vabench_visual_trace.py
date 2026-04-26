@@ -398,7 +398,7 @@ if __name__ == "__main__":
 
     model_name = "Embodied-R1-3B"
     model_path = "IffYuan/Embodied-R1-3B-v1"
-    dataset_path = "eval/data/vabench_trace_test.parquet"
+    dataset_path = "data/vabench_trace_test.parquet"
     reasoning_model = True
     
     vis_dir = f"logs/visualizations/{task_name}_{model_name}"

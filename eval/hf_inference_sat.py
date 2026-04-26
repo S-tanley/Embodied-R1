@@ -144,8 +144,8 @@ def main(task_name, model_name, model_path, reasoning_model, max_pixels, min_pix
             logger.info(f"Using {accelerator.num_processes} devices for data parallel processing")
     
     with accelerator.main_process_first():
-        dataset = load_dataset(huggingface_dataset_name)
-        test_data = dataset[split]
+        dataset = load_dataset(huggingface_dataset_name, streaming=True)
+        test_data = list(dataset[split])
     
     process_idx = accelerator.process_index
     num_processes = accelerator.num_processes

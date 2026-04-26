@@ -343,7 +343,7 @@ if __name__ == "__main__":
     task_name = "Open6dor-Custom"
     model_name = "Embodied-R1-3B-2D"
     model_path = "IffYuan/Embodied-R1-3B-v1"
-    dataset_path = "eval/data/open6dor_test.parquet"
+    dataset_path = "data/open6dor_test.parquet"
     reasoning_model = True
     use_flash_attention = False
 

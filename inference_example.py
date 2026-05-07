@@ -4,6 +4,7 @@ import torch
 import json
 from PIL import Image
 from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+from disambiguation import InstructionResolver, R1CandidateExtractor
 
 def process_vision_info(messages):
     image_inputs = []
@@ -308,7 +309,7 @@ def generate_response(model, processor, messages):
     
     return generated_text
 
-def process_single_example(model, processor, example, base_image_dir="", output_dir="output"):
+def process_single_example(model, processor, example, base_image_dir="", output_dir="output", resolver=None):
 
     image_path = os.path.join(base_image_dir, example["image"])
     try:
@@ -320,6 +321,25 @@ def process_single_example(model, processor, example, base_image_dir="", output_
 
     mode = example["mode"]
     text = example["text"]
+    resolver = resolver or InstructionResolver()
+    disambiguation = resolver.resolve(image=image, instruction=text, mode=mode)
+
+    if disambiguation.needs_clarification:
+        print(f"Instruction needs clarification: {disambiguation.clarification_question}")
+        return {
+            "image": example["image"],
+            "mode": mode,
+            "instruction": text,
+            "resolved_instruction": disambiguation.resolved_instruction,
+            "disambiguation": disambiguation.to_dict(),
+            "think_content": "",
+            "answer_content": "",
+            "coordinates": "",
+            "full_response": "",
+            "visual_image_path": None,
+        }
+
+    text = disambiguation.resolved_instruction
     
 
     if mode in CONF_MODE:
@@ -364,7 +384,9 @@ def process_single_example(model, processor, example, base_image_dir="", output_
         return {
             "image": example["image"],
             "mode": mode,
-            "instruction": text,
+            "instruction": example["text"],
+            "resolved_instruction": text,
+            "disambiguation": disambiguation.to_dict(),
             "think_content": think_content,
             "answer_content": answer_content,
             "coordinates": coordinates,
@@ -388,11 +410,12 @@ def main():
     print("Loading model and processor...")
     model, processor = _load_model_processor(checkpoint_path, cpu_only, flash_attn2)
     print("Model loaded successfully")
+    resolver = InstructionResolver(candidate_extractor=R1CandidateExtractor(model, processor))
     
     results = []
     for i, example in enumerate(EXAMPLE):
         print(f"\nProcessing example {i+1}/{len(EXAMPLE)}")
-        result = process_single_example(model, processor, example, base_image_dir, output_dir)
+        result = process_single_example(model, processor, example, base_image_dir, output_dir, resolver=resolver)
         if result:
             results.append(result)
     

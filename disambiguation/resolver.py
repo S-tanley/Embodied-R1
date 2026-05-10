@@ -105,16 +105,23 @@ class InstructionResolver:
                 reason="empty_instruction",
             )
 
+        state_candidates = self._retrieve_state_candidates(normalized, mode)
+        if state_candidates:
+            return self._result_from_candidates(
+                instruction=instruction,
+                normalized=normalized,
+                candidates=state_candidates,
+                reason_prefix="mcp_state",
+            )
+
         generic_object = self._find_generic_object(normalized)
-        if generic_object is not None:
-            state_candidates = self._retrieve_state_candidates(normalized, mode)
-            if state_candidates:
-                return self._result_from_candidates(
-                    instruction=instruction,
-                    normalized=normalized,
-                    candidates=state_candidates,
-                    reason_prefix="mcp_state",
-                )
+        if self._state_has_single_mentioned_category(normalized):
+            return self._result_from_candidates(
+                instruction=instruction,
+                normalized=normalized,
+                candidates=[],
+                reason_prefix="mcp_state",
+            )
 
         if not self._should_check_candidates(normalized, mode):
             return DisambiguationResult(
@@ -194,6 +201,20 @@ class InstructionResolver:
             return []
         candidates = self.state_tracker.retrieve_candidates(instruction=instruction, mode=mode)
         return candidates if isinstance(candidates, list) else []
+
+    def _state_has_mentioned_category(self, instruction: str) -> bool:
+        if self.state_tracker is None:
+            return False
+        if not hasattr(self.state_tracker, "has_mentioned_category"):
+            return False
+        return bool(self.state_tracker.has_mentioned_category(instruction))
+
+    def _state_has_single_mentioned_category(self, instruction: str) -> bool:
+        if self.state_tracker is None:
+            return False
+        if not hasattr(self.state_tracker, "has_single_mentioned_category"):
+            return False
+        return bool(self.state_tracker.has_single_mentioned_category(instruction))
 
     def _should_check_candidates(self, instruction: str, mode: str | None) -> bool:
         generic_object = self._find_generic_object(instruction)

@@ -1,8 +1,26 @@
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import dataclass, field
 import re
 from typing import Any
+
+
+_COLOR_WORDS = {
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "black",
+    "white",
+    "gray",
+    "grey",
+    "orange",
+    "purple",
+    "pink",
+}
+
+_SIZE_WORDS = {"small", "large", "big", "tiny", "wide", "thin"}
 
 
 @dataclass
@@ -67,27 +85,45 @@ class MCPStateTracker:
 
     def retrieve_candidates(self, instruction: str, mode: str | None = None) -> list[dict[str, str]]:
         tokens = set(self._tokens(instruction))
-        categories = self._mentioned_categories(tokens)
+        categories = self._mentioned_categories(instruction)
         if not categories:
             return []
 
-        candidates = [obj for obj in self.objects if obj.category in categories or obj.category.rstrip("s") in categories]
+        if "object" in tokens or "thing" in tokens:
+            candidate_categories = categories
+        elif len(categories) > 1:
+            counts = Counter(obj.category for obj in self.objects)
+            candidate_categories = {category for category in categories if counts[category] > 1}
+            if not candidate_categories:
+                return []
+        else:
+            candidate_categories = categories
+
+        candidates = [obj for obj in self.objects if obj.category in candidate_categories]
         candidates = self._filter_by_text_constraints(candidates, tokens, instruction)
         return [obj.to_candidate() for obj in candidates]
 
-    def _mentioned_categories(self, tokens: set[str]) -> set[str]:
+    def has_mentioned_category(self, instruction: str) -> bool:
+        return bool(self._mentioned_categories(instruction))
+
+    def has_single_mentioned_category(self, instruction: str) -> bool:
+        return len(self._mentioned_categories(instruction)) == 1
+
+    def _mentioned_categories(self, instruction: str) -> set[str]:
+        tokens = set(self._tokens(instruction))
+        lowered = instruction.lower()
         categories = {obj.category for obj in self.objects if obj.category}
-        aliases = {category.rstrip("s"): category for category in categories}
         mentioned = set()
-        for token in tokens:
-            if token in categories:
-                mentioned.add(token)
-            elif token in aliases:
-                mentioned.add(aliases[token])
-            elif token == "object":
-                mentioned.update(categories)
-            elif token == "thing":
-                mentioned.update(categories)
+        if "object" in tokens or "thing" in tokens:
+            mentioned.update(categories)
+            return mentioned
+
+        for category in categories:
+            aliases = {category, category.rstrip("s"), f"{category}s"}
+            for alias in aliases:
+                if alias and re.search(rf"\b{re.escape(alias)}\b", lowered):
+                    mentioned.add(category)
+                    break
         return mentioned
 
     def _filter_by_text_constraints(
@@ -102,9 +138,9 @@ class MCPStateTracker:
             if word in {"left", "right", "center", "middle", "top", "bottom", "front", "back"}
         }
 
-        color_constraints = tokens & colors
-        size_constraints = tokens & sizes
-        location_constraints = tokens & locations
+        color_constraints = tokens & _COLOR_WORDS
+        size_constraints = tokens & _SIZE_WORDS
+        location_constraints = self._location_constraints(tokens, instruction, locations)
 
         filtered = objects
         if color_constraints:
@@ -124,6 +160,14 @@ class MCPStateTracker:
 
         return filtered
 
+    def _location_constraints(self, tokens: set[str], instruction: str, locations: set[str]) -> set[str]:
+        lowered = instruction.lower()
+        if re.search(r"\b(left|right|front|back|top|bottom)\s+of\b", lowered):
+            return set()
+        if re.search(r"\bon\s+top\s+of\b", lowered):
+            return set()
+        return tokens & locations
+
     def _state_constraints(self, instruction: str, tokens: set[str]) -> dict[str, Any]:
         lowered = instruction.lower()
         constraints: dict[str, Any] = {}
@@ -131,11 +175,19 @@ class MCPStateTracker:
             constraints["open"] = True
         elif re.search(r"\b(that is|currently|already)\s+(closed|close)\b", lowered):
             constraints["open"] = False
+        elif re.search(r"^\s*open\b", lowered):
+            constraints["open"] = False
+        elif re.search(r"^\s*close\b", lowered):
+            constraints["open"] = True
 
         if re.search(r"\b(that is|currently|already)\s+(on|enabled)\b", lowered):
             constraints["on"] = True
         elif re.search(r"\b(that is|currently|already)\s+(off|disabled)\b", lowered):
             constraints["on"] = False
+        elif re.search(r"^\s*turn\s+on\b", lowered):
+            constraints["on"] = False
+        elif re.search(r"^\s*turn\s+off\b", lowered):
+            constraints["on"] = True
 
         if "open" in tokens and "open" not in constraints:
             constraints["open"] = True

@@ -1,0 +1,5327 @@
+[
+  {
+    "episode_id": "fsd_pointbridge_17150",
+    "step_id": 0,
+    "rmse": 59.606162934121194,
+    "mae": 32.03173828125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      243.50625,
+      112.3875
+    ],
+    "pred_end": [
+      355.89375,
+      387.1125
+    ],
+    "ans_start": [
+      246.628125,
+      122.79374999999999
+    ],
+    "ans_end": [
+      405.84375,
+      274.725
+    ],
+    "timestamp": "2026-05-07T06:24:32Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_25492",
+    "step_id": 0,
+    "rmse": 132.77619077780244,
+    "mae": 78.66474609375001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      549.45,
+      618.13125
+    ],
+    "pred_end": [
+      549.45,
+      478.6875
+    ],
+    "ans_start": [
+      549.45,
+      632.6999999999999
+    ],
+    "ans_end": [
+      382.4296875,
+      401.68125000000003
+    ],
+    "timestamp": "2026-05-07T06:24:51Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_25690",
+    "step_id": 0,
+    "rmse": 88.34689450464981,
+    "mae": 47.966308593749986,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      694.6171875,
+      499.5
+    ],
+    "pred_end": [
+      235.7015625,
+      241.425
+    ],
+    "ans_start": [
+      689.934375,
+      511.98749999999995
+    ],
+    "ans_end": [
+      366.8203125,
+      278.8875
+    ],
+    "timestamp": "2026-05-07T06:24:58Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_12490",
+    "step_id": 0,
+    "rmse": 69.64781733240089,
+    "mae": 38.86083984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      408.965625,
+      516.1500000000001
+    ],
+    "pred_end": [
+      487.0125,
+      343.40625
+    ],
+    "ans_start": [
+      412.0875,
+      518.23125
+    ],
+    "ans_end": [
+      604.0828125,
+      366.29999999999995
+    ],
+    "timestamp": "2026-05-07T06:25:17Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_5706",
+    "step_id": 0,
+    "rmse": 51.06291312490657,
+    "mae": 29.397656249999997,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      563.4984375,
+      516.1500000000001
+    ],
+    "pred_end": [
+      257.5546875,
+      416.25
+    ],
+    "ans_start": [
+      565.059375,
+      507.825
+    ],
+    "ans_end": [
+      234.140625,
+      418.33125
+    ],
+    "timestamp": "2026-05-07T06:25:22Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_926",
+    "step_id": 0,
+    "rmse": 84.3688764379458,
+    "mae": 45.59238281250001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      735.2015625,
+      462.0375
+    ],
+    "pred_end": [
+      546.328125,
+      551.53125
+    ],
+    "ans_start": [
+      732.0796875,
+      453.7125
+    ],
+    "ans_end": [
+      596.278125,
+      545.2874999999999
+    ],
+    "timestamp": "2026-05-07T06:25:28Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_25894",
+    "step_id": 0,
+    "rmse": 50.70411274497731,
+    "mae": 28.389550781249998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      85.8515625,
+      378.78749999999997
+    ],
+    "pred_end": [
+      288.7734375,
+      462.0375
+    ],
+    "ans_start": [
+      87.4125,
+      362.1375
+    ],
+    "ans_end": [
+      298.1390625,
+      441.22499999999997
+    ],
+    "timestamp": "2026-05-07T06:25:47Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_841",
+    "step_id": 0,
+    "rmse": 96.00770240878575,
+    "mae": 50.958105468750006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      671.203125,
+      341.325
+    ],
+    "pred_end": [
+      359.015625,
+      104.0625
+    ],
+    "ans_start": [
+      724.275,
+      345.4875
+    ],
+    "ans_end": [
+      469.8421875,
+      -41.625
+    ],
+    "timestamp": "2026-05-07T06:25:53Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_11469",
+    "step_id": 0,
+    "rmse": 58.87899793134985,
+    "mae": 32.226855468749974,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      460.4765625,
+      593.15625
+    ],
+    "pred_end": [
+      721.153125,
+      520.3125
+    ],
+    "ans_start": [
+      488.5734375,
+      568.18125
+    ],
+    "ans_end": [
+      777.346875,
+      520.3125
+    ],
+    "timestamp": "2026-05-07T06:26:01Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_9184",
+    "step_id": 0,
+    "rmse": 55.23313863593719,
+    "mae": 29.625292968749996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      892.85625,
+      634.78125
+    ],
+    "pred_end": [
+      600.9609375,
+      686.8125
+    ],
+    "ans_start": [
+      886.6125,
+      634.78125
+    ],
+    "ans_end": [
+      638.4234375,
+      713.86875
+    ],
+    "timestamp": "2026-05-07T06:26:08Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_18282",
+    "step_id": 0,
+    "rmse": 52.75337563945473,
+    "mae": 32.51953124999997,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      646.228125,
+      634.78125
+    ],
+    "pred_end": [
+      235.7015625,
+      645.1875
+    ],
+    "ans_start": [
+      674.325,
+      647.2687500000001
+    ],
+    "ans_end": [
+      302.821875,
+      657.675
+    ],
+    "timestamp": "2026-05-07T06:26:14Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_10871",
+    "step_id": 0,
+    "rmse": 70.42310035751655,
+    "mae": 36.161718750000006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      196.678125,
+      526.55625
+    ],
+    "pred_end": [
+      705.54375,
+      561.9375
+    ],
+    "ans_start": [
+      204.4828125,
+      522.3937500000001
+    ],
+    "ans_end": [
+      710.2265625,
+      607.7249999999999
+    ],
+    "timestamp": "2026-05-07T06:26:23Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_1223",
+    "step_id": 0,
+    "rmse": 60.11833243153161,
+    "mae": 34.30810546875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      351.2109375,
+      753.4125
+    ],
+    "pred_end": [
+      668.08125,
+      774.225
+    ],
+    "ans_start": [
+      334.040625,
+      740.9250000000001
+    ],
+    "ans_end": [
+      632.1796875,
+      693.05625
+    ],
+    "timestamp": "2026-05-07T06:26:29Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_652",
+    "step_id": 0,
+    "rmse": 64.59894996474674,
+    "mae": 32.0642578125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      301.2609375,
+      364.21875
+    ],
+    "pred_end": [
+      424.575,
+      45.787499999999994
+    ],
+    "ans_start": [
+      304.3828125,
+      364.21875
+    ],
+    "ans_end": [
+      433.940625,
+      39.543749999999996
+    ],
+    "timestamp": "2026-05-07T06:26:37Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_21069",
+    "step_id": 0,
+    "rmse": 76.5823292481769,
+    "mae": 37.26738281249999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      586.9125,
+      385.03125
+    ],
+    "pred_end": [
+      374.625,
+      228.9375
+    ],
+    "ans_start": [
+      590.034375,
+      412.0875
+    ],
+    "ans_end": [
+      377.746875,
+      233.1
+    ],
+    "timestamp": "2026-05-07T06:26:55Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_18310",
+    "step_id": 0,
+    "rmse": 167.44253272888164,
+    "mae": 95.96513671875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      59.315625,
+      618.13125
+    ],
+    "pred_end": [
+      522.9140625,
+      836.6625
+    ],
+    "ans_start": [
+      57.7546875,
+      630.61875
+    ],
+    "ans_end": [
+      627.496875,
+      919.9124999999999
+    ],
+    "timestamp": "2026-05-07T06:27:04Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_964",
+    "step_id": 0,
+    "rmse": 51.97496076309903,
+    "mae": 26.698535156250003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      255.99374999999998,
+      266.4
+    ],
+    "pred_end": [
+      563.4984375,
+      333.0
+    ],
+    "ans_start": [
+      255.99374999999998,
+      260.15625
+    ],
+    "ans_end": [
+      561.9375,
+      299.7
+    ],
+    "timestamp": "2026-05-07T06:27:24Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_7463",
+    "step_id": 0,
+    "rmse": 78.51225120433348,
+    "mae": 41.202246093750006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      156.09375,
+      599.4
+    ],
+    "pred_end": [
+      296.578125,
+      191.47500000000002
+    ],
+    "ans_start": [
+      157.6546875,
+      603.5625
+    ],
+    "ans_end": [
+      255.99374999999998,
+      193.55625
+    ],
+    "timestamp": "2026-05-07T06:27:36Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_14992",
+    "step_id": 0,
+    "rmse": 46.008322050874796,
+    "mae": 26.698535156249996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      627.496875,
+      224.775
+    ],
+    "pred_end": [
+      206.04375,
+      407.925
+    ],
+    "ans_start": [
+      632.1796875,
+      241.425
+    ],
+    "ans_end": [
+      212.2875,
+      397.51874999999995
+    ],
+    "timestamp": "2026-05-07T06:27:43Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_24873",
+    "step_id": 0,
+    "rmse": 55.68012335730733,
+    "mae": 30.698437500000008,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      441.7453125,
+      703.4625000000001
+    ],
+    "pred_end": [
+      515.109375,
+      391.275
+    ],
+    "ans_start": [
+      446.428125,
+      653.5125
+    ],
+    "ans_end": [
+      476.0859375,
+      291.375
+    ],
+    "timestamp": "2026-05-07T06:28:28Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_10548",
+    "step_id": 0,
+    "rmse": 78.51526831192301,
+    "mae": 44.58427734375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      273.1640625,
+      478.6875
+    ],
+    "pred_end": [
+      507.3046875,
+      239.34375
+    ],
+    "ans_start": [
+      274.725,
+      472.44374999999997
+    ],
+    "ans_end": [
+      447.9890625,
+      222.69375000000002
+    ],
+    "timestamp": "2026-05-07T06:28:33Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_7722",
+    "step_id": 0,
+    "rmse": 48.41982389169878,
+    "mae": 27.186328124999992,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      710.2265625,
+      774.225
+    ],
+    "pred_end": [
+      561.9375,
+      426.65625
+    ],
+    "ans_start": [
+      703.9828125,
+      776.30625
+    ],
+    "ans_end": [
+      536.9625,
+      416.25
+    ],
+    "timestamp": "2026-05-07T06:28:42Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_10783",
+    "step_id": 0,
+    "rmse": 205.87755415535875,
+    "mae": 112.35498046875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      127.99687499999999,
+      462.0375
+    ],
+    "pred_end": [
+      549.45,
+      520.3125
+    ],
+    "ans_start": [
+      142.0453125,
+      443.30625
+    ],
+    "ans_end": [
+      803.8828125,
+      657.675
+    ],
+    "timestamp": "2026-05-07T06:28:50Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_6338",
+    "step_id": 0,
+    "rmse": 72.68911810112861,
+    "mae": 40.35673828125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      455.79375,
+      482.85
+    ],
+    "pred_end": [
+      343.40625,
+      108.22500000000001
+    ],
+    "ans_start": [
+      462.0375,
+      487.0125
+    ],
+    "ans_end": [
+      379.3078125,
+      187.3125
+    ],
+    "timestamp": "2026-05-07T06:29:02Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_19650",
+    "step_id": 0,
+    "rmse": 82.07403998369772,
+    "mae": 48.16142578125002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      543.20625,
+      830.41875
+    ],
+    "pred_end": [
+      593.15625,
+      499.5
+    ],
+    "ans_start": [
+      543.20625,
+      824.175
+    ],
+    "ans_end": [
+      677.446875,
+      559.85625
+    ],
+    "timestamp": "2026-05-07T06:29:10Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_22281",
+    "step_id": 0,
+    "rmse": 57.40263796071248,
+    "mae": 29.462695312499996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      663.3984375,
+      457.875
+    ],
+    "pred_end": [
+      569.7421875,
+      678.4875000000001
+    ],
+    "ans_start": [
+      654.0328125,
+      464.11875000000003
+    ],
+    "ans_end": [
+      577.546875,
+      678.4875000000001
+    ],
+    "timestamp": "2026-05-07T06:29:15Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_12874",
+    "step_id": 0,
+    "rmse": 62.90834187561347,
+    "mae": 36.55195312500001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      351.2109375,
+      547.3687500000001
+    ],
+    "pred_end": [
+      463.5984375,
+      301.78125
+    ],
+    "ans_start": [
+      363.6984375,
+      539.0437499999999
+    ],
+    "ans_end": [
+      527.596875,
+      357.975
+    ],
+    "timestamp": "2026-05-07T06:29:19Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_19159",
+    "step_id": 0,
+    "rmse": 116.19450134162462,
+    "mae": 58.37255859375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      284.090625,
+      703.4625000000001
+    ],
+    "pred_end": [
+      605.64375,
+      849.15
+    ],
+    "ans_start": [
+      295.0171875,
+      693.05625
+    ],
+    "ans_end": [
+      527.596875,
+      832.5
+    ],
+    "timestamp": "2026-05-07T06:29:27Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_11101",
+    "step_id": 0,
+    "rmse": 52.34444604831053,
+    "mae": 30.958593750000002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      159.215625,
+      474.525
+    ],
+    "pred_end": [
+      382.4296875,
+      322.59375
+    ],
+    "ans_start": [
+      152.971875,
+      476.60625000000005
+    ],
+    "ans_end": [
+      401.1609375,
+      368.38125
+    ],
+    "timestamp": "2026-05-07T06:29:34Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_14985",
+    "step_id": 0,
+    "rmse": 66.67998050929691,
+    "mae": 36.77958984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      112.3875,
+      343.40625
+    ],
+    "pred_end": [
+      679.0078125,
+      333.0
+    ],
+    "ans_start": [
+      115.509375,
+      341.325
+    ],
+    "ans_end": [
+      680.56875,
+      360.05625
+    ],
+    "timestamp": "2026-05-07T06:29:39Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_1700",
+    "step_id": 0,
+    "rmse": 54.28732276587174,
+    "mae": 28.74726562499999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      819.4921875,
+      416.25
+    ],
+    "pred_end": [
+      639.984375,
+      191.47500000000002
+    ],
+    "ans_start": [
+      811.6875,
+      426.65625
+    ],
+    "ans_end": [
+      668.08125,
+      233.1
+    ],
+    "timestamp": "2026-05-07T06:29:45Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_14815",
+    "step_id": 0,
+    "rmse": 55.842464827322246,
+    "mae": 34.63330078125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      156.09375,
+      616.0500000000001
+    ],
+    "pred_end": [
+      585.3515625,
+      520.3125
+    ],
+    "ans_start": [
+      146.728125,
+      605.64375
+    ],
+    "ans_end": [
+      596.278125,
+      586.9125
+    ],
+    "timestamp": "2026-05-07T06:29:52Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_34637",
+    "step_id": 0,
+    "rmse": 60.18612371564594,
+    "mae": 30.438281250000003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      212.2875,
+      295.5375
+    ],
+    "pred_end": [
+      393.35625,
+      403.7625
+    ],
+    "ans_start": [
+      224.775,
+      320.51250000000005
+    ],
+    "ans_end": [
+      390.234375,
+      447.46875
+    ],
+    "timestamp": "2026-05-07T06:29:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38094",
+    "step_id": 0,
+    "rmse": 110.11265025211426,
+    "mae": 67.73818359375002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      563.4984375,
+      403.7625
+    ],
+    "pred_end": [
+      493.25625,
+      707.625
+    ],
+    "ans_start": [
+      580.66875,
+      401.68125000000003
+    ],
+    "ans_end": [
+      410.5265625,
+      651.43125
+    ],
+    "timestamp": "2026-05-07T06:30:06Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_52241",
+    "step_id": 0,
+    "rmse": 65.89968871533704,
+    "mae": 37.78769531249999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      622.8140625,
+      270.5625
+    ],
+    "pred_end": [
+      730.51875,
+      641.0250000000001
+    ],
+    "ans_start": [
+      621.253125,
+      278.8875
+    ],
+    "ans_end": [
+      735.2015625,
+      693.05625
+    ],
+    "timestamp": "2026-05-07T06:30:11Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_48926",
+    "step_id": 0,
+    "rmse": 50.48204498779642,
+    "mae": 28.324511718749996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      398.0390625,
+      595.2375
+    ],
+    "pred_end": [
+      710.2265625,
+      468.28125
+    ],
+    "ans_start": [
+      398.0390625,
+      576.5062499999999
+    ],
+    "ans_end": [
+      725.8359375,
+      470.3625
+    ],
+    "timestamp": "2026-05-07T06:30:19Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38015",
+    "step_id": 0,
+    "rmse": 72.61412538300766,
+    "mae": 37.88525390624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      210.7265625,
+      322.59375
+    ],
+    "pred_end": [
+      554.1328125,
+      374.625
+    ],
+    "ans_start": [
+      213.8484375,
+      333.0
+    ],
+    "ans_end": [
+      547.8890625,
+      362.1375
+    ],
+    "timestamp": "2026-05-07T06:30:31Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_26897",
+    "step_id": 0,
+    "rmse": 100.13278542414008,
+    "mae": 62.76269531250003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      533.840625,
+      732.5999999999999
+    ],
+    "pred_end": [
+      533.840625,
+      228.9375
+    ],
+    "ans_start": [
+      519.7921875,
+      749.25
+    ],
+    "ans_end": [
+      483.890625,
+      197.71875
+    ],
+    "timestamp": "2026-05-07T06:30:37Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_51188",
+    "step_id": 0,
+    "rmse": 66.32989585340337,
+    "mae": 38.86083984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      382.4296875,
+      482.85
+    ],
+    "pred_end": [
+      408.965625,
+      228.9375
+    ],
+    "ans_start": [
+      402.721875,
+      437.0625
+    ],
+    "ans_end": [
+      412.0875,
+      270.5625
+    ],
+    "timestamp": "2026-05-07T06:30:43Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_48836",
+    "step_id": 0,
+    "rmse": 75.14868952356638,
+    "mae": 41.559960937499994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      502.62187500000005,
+      745.0875
+    ],
+    "pred_end": [
+      280.96875,
+      520.3125
+    ],
+    "ans_start": [
+      511.98749999999995,
+      757.5749999999999
+    ],
+    "ans_end": [
+      145.1671875,
+      472.44374999999997
+    ],
+    "timestamp": "2026-05-07T06:30:53Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_32821",
+    "step_id": 0,
+    "rmse": 44.184458358948284,
+    "mae": 27.70664062500002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      580.66875,
+      682.65
+    ],
+    "pred_end": [
+      511.98749999999995,
+      355.89375
+    ],
+    "ans_start": [
+      579.1078125,
+      697.21875
+    ],
+    "ans_end": [
+      516.6703125,
+      316.34999999999997
+    ],
+    "timestamp": "2026-05-07T06:31:00Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38562",
+    "step_id": 0,
+    "rmse": 119.07016486539261,
+    "mae": 69.29912109375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      630.61875,
+      728.4375
+    ],
+    "pred_end": [
+      327.796875,
+      249.75
+    ],
+    "ans_start": [
+      636.8625,
+      740.9250000000001
+    ],
+    "ans_end": [
+      430.81875,
+      258.07500000000005
+    ],
+    "timestamp": "2026-05-07T06:31:08Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_37829",
+    "step_id": 0,
+    "rmse": 75.8001743324711,
+    "mae": 44.48671875000001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      671.203125,
+      634.78125
+    ],
+    "pred_end": [
+      421.453125,
+      412.0875
+    ],
+    "ans_start": [
+      679.0078125,
+      611.8875
+    ],
+    "ans_end": [
+      455.79375,
+      470.3625
+    ],
+    "timestamp": "2026-05-07T06:31:17Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38126",
+    "step_id": 0,
+    "rmse": 60.349801817460325,
+    "mae": 35.153613281249996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      404.2828125,
+      343.40625
+    ],
+    "pred_end": [
+      721.153125,
+      607.7249999999999
+    ],
+    "ans_start": [
+      412.0875,
+      345.4875
+    ],
+    "ans_end": [
+      677.446875,
+      593.15625
+    ],
+    "timestamp": "2026-05-07T06:31:26Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_28822",
+    "step_id": 0,
+    "rmse": 43.601209574728486,
+    "mae": 25.397753906250003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      243.50625,
+      412.0875
+    ],
+    "pred_end": [
+      527.596875,
+      343.40625
+    ],
+    "ans_start": [
+      252.871875,
+      416.25
+    ],
+    "ans_end": [
+      499.5,
+      343.40625
+    ],
+    "timestamp": "2026-05-07T06:31:32Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_47466",
+    "step_id": 0,
+    "rmse": 100.32928395292102,
+    "mae": 51.18574218749998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      507.3046875,
+      524.475
+    ],
+    "pred_end": [
+      736.7625,
+      628.5375
+    ],
+    "ans_start": [
+      507.3046875,
+      545.2874999999999
+    ],
+    "ans_end": [
+      702.421875,
+      663.9187499999999
+    ],
+    "timestamp": "2026-05-07T06:31:47Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_52367",
+    "step_id": 0,
+    "rmse": 85.88604598654334,
+    "mae": 50.69794921875001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      315.309375,
+      586.9125
+    ],
+    "pred_end": [
+      293.45625,
+      301.78125
+    ],
+    "ans_start": [
+      321.553125,
+      591.075
+    ],
+    "ans_end": [
+      262.2375,
+      376.70625
+    ],
+    "timestamp": "2026-05-07T06:31:54Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38900",
+    "step_id": 0,
+    "rmse": 77.59528138866837,
+    "mae": 43.34853515625001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      398.0390625,
+      312.1875
+    ],
+    "pred_end": [
+      580.66875,
+      499.5
+    ],
+    "ans_start": [
+      401.1609375,
+      314.26875
+    ],
+    "ans_end": [
+      515.109375,
+      611.8875
+    ],
+    "timestamp": "2026-05-07T06:32:06Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_50949",
+    "step_id": 0,
+    "rmse": 109.13314373657808,
+    "mae": 60.38876953124999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      602.521875,
+      301.78125
+    ],
+    "pred_end": [
+      471.403125,
+      593.15625
+    ],
+    "ans_start": [
+      604.0828125,
+      301.78125
+    ],
+    "ans_end": [
+      355.89375,
+      605.64375
+    ],
+    "timestamp": "2026-05-07T06:32:12Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_50421",
+    "step_id": 0,
+    "rmse": 122.78865149306688,
+    "mae": 67.80322265624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      543.20625,
+      343.40625
+    ],
+    "pred_end": [
+      496.378125,
+      545.2874999999999
+    ],
+    "ans_start": [
+      549.45,
+      351.73125000000005
+    ],
+    "ans_end": [
+      663.3984375,
+      505.74375
+    ],
+    "timestamp": "2026-05-07T06:32:26Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_52031",
+    "step_id": 0,
+    "rmse": 62.756460688556174,
+    "mae": 34.860937500000006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      266.4
+    ],
+    "pred_end": [
+      580.66875,
+      690.975
+    ],
+    "ans_start": [
+      482.3296875,
+      274.725
+    ],
+    "ans_end": [
+      554.1328125,
+      688.89375
+    ],
+    "timestamp": "2026-05-07T06:32:31Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_51141",
+    "step_id": 0,
+    "rmse": 65.0785942360034,
+    "mae": 39.9990234375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      312.1875,
+      412.0875
+    ],
+    "pred_end": [
+      686.8125,
+      366.29999999999995
+    ],
+    "ans_start": [
+      312.1875,
+      405.84375
+    ],
+    "ans_end": [
+      661.8375,
+      333.0
+    ],
+    "timestamp": "2026-05-07T06:32:39Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_47459",
+    "step_id": 0,
+    "rmse": 53.02498790519613,
+    "mae": 28.32451171875002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      520.3125
+    ],
+    "pred_end": [
+      772.6640625,
+      586.9125
+    ],
+    "ans_start": [
+      476.0859375,
+      555.69375
+    ],
+    "ans_end": [
+      750.8109375,
+      659.75625
+    ],
+    "timestamp": "2026-05-07T06:32:53Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38499",
+    "step_id": 0,
+    "rmse": 54.152509247610126,
+    "mae": 32.32441406250001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      565.059375,
+      732.5999999999999
+    ],
+    "pred_end": [
+      747.6890625,
+      478.6875
+    ],
+    "ans_start": [
+      555.69375,
+      732.5999999999999
+    ],
+    "ans_end": [
+      739.884375,
+      495.33750000000003
+    ],
+    "timestamp": "2026-05-07T06:32:58Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_51314",
+    "step_id": 0,
+    "rmse": 45.71797366960918,
+    "mae": 28.357031250000006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      560.3765625,
+      759.65625
+    ],
+    "pred_end": [
+      284.090625,
+      478.6875
+    ],
+    "ans_start": [
+      563.4984375,
+      726.3562499999999
+    ],
+    "ans_end": [
+      216.9703125,
+      466.2
+    ],
+    "timestamp": "2026-05-07T06:33:11Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_46217",
+    "step_id": 0,
+    "rmse": 68.88591664279974,
+    "mae": 38.17792968750001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      508.865625,
+      557.775
+    ],
+    "pred_end": [
+      699.3,
+      759.65625
+    ],
+    "ans_start": [
+      505.74375,
+      568.18125
+    ],
+    "ans_end": [
+      688.3734375,
+      792.95625
+    ],
+    "timestamp": "2026-05-07T06:33:19Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_52106",
+    "step_id": 0,
+    "rmse": 46.592306620233416,
+    "mae": 29.365136718749994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      538.5234375,
+      718.03125
+    ],
+    "pred_end": [
+      699.3,
+      293.45625
+    ],
+    "ans_start": [
+      568.18125,
+      697.21875
+    ],
+    "ans_end": [
+      732.0796875,
+      299.7
+    ],
+    "timestamp": "2026-05-07T06:33:42Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_38022",
+    "step_id": 0,
+    "rmse": 62.365373379407664,
+    "mae": 34.470703125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      618.13125,
+      530.71875
+    ],
+    "pred_end": [
+      235.7015625,
+      432.90000000000003
+    ],
+    "ans_start": [
+      613.4484375,
+      549.45
+    ],
+    "ans_end": [
+      229.4578125,
+      443.30625
+    ],
+    "timestamp": "2026-05-07T06:33:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_50527",
+    "step_id": 0,
+    "rmse": 58.05478673317364,
+    "mae": 27.479003906249986,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      402.721875,
+      651.43125
+    ],
+    "pred_end": [
+      627.496875,
+      335.08124999999995
+    ],
+    "ans_start": [
+      407.4046875,
+      657.675
+    ],
+    "ans_end": [
+      727.396875,
+      333.0
+    ],
+    "timestamp": "2026-05-07T06:34:04Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_45603",
+    "step_id": 0,
+    "rmse": 41.93804284371213,
+    "mae": 26.243261718750006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      237.2625,
+      724.275
+    ],
+    "pred_end": [
+      718.03125,
+      844.9875
+    ],
+    "ans_start": [
+      249.75,
+      701.3812499999999
+    ],
+    "ans_end": [
+      689.934375,
+      886.6125
+    ],
+    "timestamp": "2026-05-07T06:34:13Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_47473",
+    "step_id": 0,
+    "rmse": 327.1636811303991,
+    "mae": 177.52412109374998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      674.325,
+      661.8375
+    ],
+    "pred_end": [
+      792.95625,
+      676.40625
+    ],
+    "ans_start": [
+      675.8859375,
+      676.40625
+    ],
+    "ans_end": [
+      469.8421875,
+      312.1875
+    ],
+    "timestamp": "2026-05-07T06:34:22Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_39064",
+    "step_id": 0,
+    "rmse": 47.94574522805577,
+    "mae": 27.836718749999996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      433.940625,
+      468.28125
+    ],
+    "pred_end": [
+      165.459375,
+      441.22499999999997
+    ],
+    "ans_start": [
+      440.184375,
+      464.11875000000003
+    ],
+    "ans_end": [
+      238.8234375,
+      420.4125
+    ],
+    "timestamp": "2026-05-07T06:34:30Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_37675",
+    "step_id": 0,
+    "rmse": 51.2164343982068,
+    "mae": 28.747265625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      383.990625,
+      343.40625
+    ],
+    "pred_end": [
+      668.08125,
+      399.6
+    ],
+    "ans_start": [
+      383.990625,
+      337.1625
+    ],
+    "ans_end": [
+      639.984375,
+      478.6875
+    ],
+    "timestamp": "2026-05-07T06:34:39Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_29133",
+    "step_id": 0,
+    "rmse": 304.690286408533,
+    "mae": 94.7619140625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      586.9125,
+      441.22499999999997
+    ],
+    "pred_end": [
+      78.046875,
+      345.4875
+    ],
+    "ans_start": [
+      583.790625,
+      447.46875
+    ],
+    "ans_end": [
+      686.8125,
+      301.78125
+    ],
+    "timestamp": "2026-05-07T06:34:47Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_35682",
+    "step_id": 0,
+    "rmse": 137.55526469065515,
+    "mae": 85.33124999999995,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      905.34375
+    ],
+    "pred_end": [
+      663.3984375,
+      582.75
+    ],
+    "ans_start": [
+      460.4765625,
+      913.6687499999999
+    ],
+    "ans_end": [
+      657.1546875,
+      632.6999999999999
+    ],
+    "timestamp": "2026-05-07T06:35:01Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_39435",
+    "step_id": 0,
+    "rmse": 91.65607816579261,
+    "mae": 46.92568359375001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      190.434375,
+      412.0875
+    ],
+    "pred_end": [
+      618.13125,
+      607.7249999999999
+    ],
+    "ans_start": [
+      201.3609375,
+      399.6
+    ],
+    "ans_end": [
+      586.9125,
+      457.875
+    ],
+    "timestamp": "2026-05-07T06:35:29Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_39175",
+    "step_id": 0,
+    "rmse": 55.0923474821924,
+    "mae": 24.519726562499986,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      462.0375,
+      607.7249999999999
+    ],
+    "pred_end": [
+      188.8734375,
+      416.25
+    ],
+    "ans_start": [
+      462.0375,
+      603.5625
+    ],
+    "ans_end": [
+      202.921875,
+      497.41875
+    ],
+    "timestamp": "2026-05-07T06:35:44Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_43261",
+    "step_id": 0,
+    "rmse": 144.22373613824402,
+    "mae": 81.16875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      630.61875,
+      253.9125
+    ],
+    "pred_end": [
+      580.66875,
+      432.90000000000003
+    ],
+    "ans_start": [
+      639.984375,
+      262.2375
+    ],
+    "ans_end": [
+      463.5984375,
+      339.24375000000003
+    ],
+    "timestamp": "2026-05-07T06:35:58Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_46329",
+    "step_id": 0,
+    "rmse": 64.69709866369966,
+    "mae": 36.51943359375001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      699.3,
+      684.73125
+    ],
+    "pred_end": [
+      220.0921875,
+      405.84375
+    ],
+    "ans_start": [
+      697.7390625,
+      690.975
+    ],
+    "ans_end": [
+      137.3625,
+      397.51874999999995
+    ],
+    "timestamp": "2026-05-07T06:36:05Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_78236",
+    "step_id": 0,
+    "rmse": 233.86592675001015,
+    "mae": 142.92333984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      596.278125,
+      104.0625
+    ],
+    "pred_end": [
+      705.54375,
+      499.5
+    ],
+    "ans_start": [
+      903.7828125,
+      280.96875
+    ],
+    "ans_end": [
+      738.3234375,
+      397.51874999999995
+    ],
+    "timestamp": "2026-05-07T06:36:19Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_53439",
+    "step_id": 0,
+    "rmse": 59.36324414613976,
+    "mae": 35.08857421874998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      298.1390625,
+      387.1125
+    ],
+    "pred_end": [
+      663.3984375,
+      314.26875
+    ],
+    "ans_start": [
+      302.821875,
+      387.1125
+    ],
+    "ans_end": [
+      619.6921875,
+      360.05625
+    ],
+    "timestamp": "2026-05-07T06:36:30Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_63576",
+    "step_id": 0,
+    "rmse": 118.51180896104917,
+    "mae": 58.372558593750014,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      799.2,
+      693.05625
+    ],
+    "pred_end": [
+      772.6640625,
+      364.21875
+    ],
+    "ans_start": [
+      797.6390625,
+      703.4625000000001
+    ],
+    "ans_end": [
+      761.7375,
+      422.49375
+    ],
+    "timestamp": "2026-05-07T06:36:37Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_53971",
+    "step_id": 0,
+    "rmse": 55.17398264214487,
+    "mae": 33.75527343750001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      611.8875,
+      120.7125
+    ],
+    "pred_end": [
+      421.453125,
+      399.6
+    ],
+    "ans_start": [
+      613.4484375,
+      116.55
+    ],
+    "ans_end": [
+      404.2828125,
+      364.21875
+    ],
+    "timestamp": "2026-05-07T06:36:44Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_67828",
+    "step_id": 0,
+    "rmse": 187.9409696073366,
+    "mae": 107.15185546875003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      241.9453125,
+      530.71875
+    ],
+    "pred_end": [
+      669.6421875,
+      378.78749999999997
+    ],
+    "ans_start": [
+      265.359375,
+      528.6375
+    ],
+    "ans_end": [
+      730.51875,
+      495.33750000000003
+    ],
+    "timestamp": "2026-05-07T06:37:07Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_64958",
+    "step_id": 0,
+    "rmse": 65.62051418122758,
+    "mae": 36.25927734375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      335.6015625,
+      593.15625
+    ],
+    "pred_end": [
+      710.2265625,
+      462.0375
+    ],
+    "ans_start": [
+      335.6015625,
+      582.75
+    ],
+    "ans_end": [
+      722.7140625,
+      468.28125
+    ],
+    "timestamp": "2026-05-07T06:37:14Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_78502",
+    "step_id": 0,
+    "rmse": 60.550493939225476,
+    "mae": 30.308203125000013,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      679.0078125,
+      462.0375
+    ],
+    "pred_end": [
+      668.08125,
+      801.28125
+    ],
+    "ans_start": [
+      660.2765625,
+      462.0375
+    ],
+    "ans_end": [
+      689.934375,
+      759.65625
+    ],
+    "timestamp": "2026-05-07T06:37:30Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_77619",
+    "step_id": 0,
+    "rmse": 54.1118746207853,
+    "mae": 33.30000000000002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      241.9453125,
+      655.59375
+    ],
+    "pred_end": [
+      694.6171875,
+      426.65625
+    ],
+    "ans_start": [
+      223.2140625,
+      653.5125
+    ],
+    "ans_end": [
+      657.1546875,
+      439.14375
+    ],
+    "timestamp": "2026-05-07T06:37:44Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_65402",
+    "step_id": 0,
+    "rmse": 48.83667094589012,
+    "mae": 25.75546874999998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      382.4296875,
+      301.78125
+    ],
+    "pred_end": [
+      533.840625,
+      636.8625
+    ],
+    "ans_start": [
+      401.1609375,
+      295.5375
+    ],
+    "ans_end": [
+      543.20625,
+      666.0
+    ],
+    "timestamp": "2026-05-07T06:37:58Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_62803",
+    "step_id": 0,
+    "rmse": 66.29059982979078,
+    "mae": 39.055957031250024,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      488.5734375,
+      672.2437500000001
+    ],
+    "pred_end": [
+      488.5734375,
+      324.675
+    ],
+    "ans_start": [
+      493.25625,
+      670.1624999999999
+    ],
+    "ans_end": [
+      437.0625,
+      395.4375
+    ],
+    "timestamp": "2026-05-07T06:38:07Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_64186",
+    "step_id": 0,
+    "rmse": 70.00838040785933,
+    "mae": 39.12099609375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      377.746875,
+      613.96875
+    ],
+    "pred_end": [
+      483.890625,
+      343.40625
+    ],
+    "ans_start": [
+      373.0640625,
+      601.4812499999999
+    ],
+    "ans_end": [
+      533.840625,
+      434.98125
+    ],
+    "timestamp": "2026-05-07T06:38:16Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_65527",
+    "step_id": 0,
+    "rmse": 57.8647388986808,
+    "mae": 33.69023437500002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      307.5046875,
+      337.1625
+    ],
+    "pred_end": [
+      689.934375,
+      399.6
+    ],
+    "ans_start": [
+      309.065625,
+      335.08124999999995
+    ],
+    "ans_end": [
+      610.3265625,
+      437.0625
+    ],
+    "timestamp": "2026-05-07T06:38:23Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_53746",
+    "step_id": 0,
+    "rmse": 52.51516665866168,
+    "mae": 29.495214843749995,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      689.934375,
+      212.2875
+    ],
+    "pred_end": [
+      611.8875,
+      661.8375
+    ],
+    "ans_start": [
+      699.3,
+      231.01875
+    ],
+    "ans_end": [
+      635.3015625,
+      632.6999999999999
+    ],
+    "timestamp": "2026-05-07T06:38:29Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_54691",
+    "step_id": 0,
+    "rmse": 62.09401614342815,
+    "mae": 33.885351562500006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      404.2828125,
+      584.8312500000001
+    ],
+    "pred_end": [
+      627.496875,
+      495.33750000000003
+    ],
+    "ans_start": [
+      416.7703125,
+      586.9125
+    ],
+    "ans_end": [
+      639.984375,
+      445.38750000000005
+    ],
+    "timestamp": "2026-05-07T06:38:35Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_62849",
+    "step_id": 0,
+    "rmse": 66.04920941442086,
+    "mae": 35.60888671875001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      497.9390625,
+      634.78125
+    ],
+    "pred_end": [
+      511.98749999999995,
+      566.1
+    ],
+    "ans_start": [
+      502.62187500000005,
+      632.6999999999999
+    ],
+    "ans_end": [
+      586.9125,
+      574.425
+    ],
+    "timestamp": "2026-05-07T06:38:46Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_64230",
+    "step_id": 0,
+    "rmse": 122.04406344780381,
+    "mae": 68.811328125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      366.8203125,
+      322.59375
+    ],
+    "pred_end": [
+      181.06875,
+      364.21875
+    ],
+    "ans_start": [
+      374.625,
+      347.56874999999997
+    ],
+    "ans_end": [
+      145.1671875,
+      380.86875
+    ],
+    "timestamp": "2026-05-07T06:38:52Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_76797",
+    "step_id": 0,
+    "rmse": 210.14925259900386,
+    "mae": 119.47675781250003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      363.6984375,
+      528.6375
+    ],
+    "pred_end": [
+      663.3984375,
+      670.1624999999999
+    ],
+    "ans_start": [
+      371.503125,
+      541.125
+    ],
+    "ans_end": [
+      429.2578125,
+      909.50625
+    ],
+    "timestamp": "2026-05-07T06:39:14Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_63616",
+    "step_id": 0,
+    "rmse": 48.675992173249966,
+    "mae": 29.690332031249994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      772.6640625,
+      718.03125
+    ],
+    "pred_end": [
+      757.0546875,
+      385.03125
+    ],
+    "ans_start": [
+      780.46875,
+      736.7625
+    ],
+    "ans_end": [
+      725.8359375,
+      368.38125
+    ],
+    "timestamp": "2026-05-07T06:39:20Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_64357",
+    "step_id": 0,
+    "rmse": 78.61907240121222,
+    "mae": 46.14521484374998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      602.521875,
+      697.21875
+    ],
+    "pred_end": [
+      335.6015625,
+      293.45625
+    ],
+    "ans_start": [
+      600.9609375,
+      701.3812499999999
+    ],
+    "ans_end": [
+      298.1390625,
+      328.8375
+    ],
+    "timestamp": "2026-05-07T06:39:28Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_53371",
+    "step_id": 0,
+    "rmse": 80.68472532907465,
+    "mae": 44.25908203125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      85.8515625,
+      399.6
+    ],
+    "pred_end": [
+      273.1640625,
+      366.29999999999995
+    ],
+    "ans_start": [
+      78.046875,
+      414.16875000000005
+    ],
+    "ans_end": [
+      218.53125,
+      405.84375
+    ],
+    "timestamp": "2026-05-07T06:39:40Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_77224",
+    "step_id": 0,
+    "rmse": 242.24312001760097,
+    "mae": 109.55830078125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      725.8359375,
+      609.8062500000001
+    ],
+    "pred_end": [
+      312.1875,
+      337.1625
+    ],
+    "ans_start": [
+      724.275,
+      620.2125
+    ],
+    "ans_end": [
+      371.503125,
+      674.325
+    ],
+    "timestamp": "2026-05-07T06:39:54Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_64842",
+    "step_id": 0,
+    "rmse": 62.33877937774077,
+    "mae": 33.03984374999997,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      721.153125,
+      478.6875
+    ],
+    "pred_end": [
+      483.890625,
+      636.8625
+    ],
+    "ans_start": [
+      722.7140625,
+      476.60625000000005
+    ],
+    "ans_end": [
+      398.0390625,
+      578.5875000000001
+    ],
+    "timestamp": "2026-05-07T06:40:03Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_78244",
+    "step_id": 0,
+    "rmse": 68.81661465101556,
+    "mae": 41.494921875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      658.715625,
+      572.34375
+    ],
+    "pred_end": [
+      476.0859375,
+      355.89375
+    ],
+    "ans_start": [
+      669.6421875,
+      597.31875
+    ],
+    "ans_end": [
+      563.4984375,
+      418.33125
+    ],
+    "timestamp": "2026-05-07T06:40:09Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_75031",
+    "step_id": 0,
+    "rmse": 64.3338580606569,
+    "mae": 37.78769531249999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      590.034375,
+      599.4
+    ],
+    "pred_end": [
+      290.334375,
+      690.975
+    ],
+    "ans_start": [
+      591.5953125,
+      605.64375
+    ],
+    "ans_end": [
+      259.115625,
+      776.30625
+    ],
+    "timestamp": "2026-05-07T06:40:17Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_78592",
+    "step_id": 0,
+    "rmse": 52.15078456796873,
+    "mae": 30.438281249999985,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      444.8671875,
+      366.29999999999995
+    ],
+    "pred_end": [
+      655.59375,
+      593.15625
+    ],
+    "ans_start": [
+      441.7453125,
+      324.675
+    ],
+    "ans_end": [
+      643.10625,
+      576.5062499999999
+    ],
+    "timestamp": "2026-05-07T06:40:22Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_76465",
+    "step_id": 0,
+    "rmse": 115.9117989959796,
+    "mae": 68.3560546875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      468.28125,
+      649.35
+    ],
+    "pred_end": [
+      210.7265625,
+      314.26875
+    ],
+    "ans_start": [
+      480.76875,
+      657.675
+    ],
+    "ans_end": [
+      142.0453125,
+      268.48125
+    ],
+    "timestamp": "2026-05-07T06:40:38Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_57382",
+    "step_id": 0,
+    "rmse": 61.91363484424465,
+    "mae": 33.85283203125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      668.08125,
+      749.25
+    ],
+    "pred_end": [
+      374.625,
+      364.21875
+    ],
+    "ans_start": [
+      652.471875,
+      797.1187500000001
+    ],
+    "ans_end": [
+      382.4296875,
+      462.0375
+    ],
+    "timestamp": "2026-05-07T06:40:51Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_76615",
+    "step_id": 0,
+    "rmse": 57.79451751578875,
+    "mae": 33.950390625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      491.6953125,
+      493.25625
+    ],
+    "pred_end": [
+      767.98125,
+      645.1875
+    ],
+    "ans_start": [
+      487.0125,
+      480.76875
+    ],
+    "ans_end": [
+      733.640625,
+      557.775
+    ],
+    "timestamp": "2026-05-07T06:40:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_62762",
+    "step_id": 0,
+    "rmse": 55.360736531335924,
+    "mae": 28.55214843749999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      305.94375,
+      420.4125
+    ],
+    "pred_end": [
+      471.403125,
+      649.35
+    ],
+    "ans_start": [
+      310.6265625,
+      422.49375
+    ],
+    "ans_end": [
+      496.378125,
+      682.65
+    ],
+    "timestamp": "2026-05-07T06:41:04Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_57337",
+    "step_id": 0,
+    "rmse": 154.5387250289368,
+    "mae": 87.02226562499999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      830.41875,
+      482.85
+    ],
+    "pred_end": [
+      235.7015625,
+      385.03125
+    ],
+    "ans_start": [
+      831.9796875,
+      476.60625000000005
+    ],
+    "ans_end": [
+      274.725,
+      445.38750000000005
+    ],
+    "timestamp": "2026-05-07T06:41:09Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_63961",
+    "step_id": 0,
+    "rmse": 142.11390857426272,
+    "mae": 75.965625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      398.0390625,
+      301.78125
+    ],
+    "pred_end": [
+      585.3515625,
+      649.35
+    ],
+    "ans_start": [
+      399.6,
+      297.61875
+    ],
+    "ans_end": [
+      529.1578125,
+      668.08125
+    ],
+    "timestamp": "2026-05-07T06:41:18Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_79032",
+    "step_id": 0,
+    "rmse": 49.51860834092052,
+    "mae": 29.657812500000002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      750.8109375,
+      511.98749999999995
+    ],
+    "pred_end": [
+      565.059375,
+      322.59375
+    ],
+    "ans_start": [
+      760.1765625,
+      526.55625
+    ],
+    "ans_end": [
+      579.1078125,
+      387.1125
+    ],
+    "timestamp": "2026-05-07T06:41:24Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_56756",
+    "step_id": 0,
+    "rmse": 67.25781246823819,
+    "mae": 39.673828125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      137.3625,
+      301.78125
+    ],
+    "pred_end": [
+      511.98749999999995,
+      399.6
+    ],
+    "ans_start": [
+      124.875,
+      322.59375
+    ],
+    "ans_end": [
+      488.5734375,
+      464.11875000000003
+    ],
+    "timestamp": "2026-05-07T06:41:29Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_105591",
+    "step_id": 0,
+    "rmse": 53.881242246177024,
+    "mae": 26.53593750000001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      522.9140625,
+      572.34375
+    ],
+    "pred_end": [
+      327.796875,
+      468.28125
+    ],
+    "ans_start": [
+      522.9140625,
+      586.9125
+    ],
+    "ans_end": [
+      273.1640625,
+      378.78749999999997
+    ],
+    "timestamp": "2026-05-07T06:41:35Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91130",
+    "step_id": 0,
+    "rmse": 83.73051206590026,
+    "mae": 49.397167968749976,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      207.6046875,
+      401.68125000000003
+    ],
+    "pred_end": [
+      689.934375,
+      628.5375
+    ],
+    "ans_start": [
+      210.7265625,
+      399.6
+    ],
+    "ans_end": [
+      691.4953125,
+      718.03125
+    ],
+    "timestamp": "2026-05-07T06:41:51Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_92002",
+    "step_id": 0,
+    "rmse": 59.937933619166785,
+    "mae": 34.43818359374998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      533.840625,
+      593.15625
+    ],
+    "pred_end": [
+      471.403125,
+      391.275
+    ],
+    "ans_start": [
+      552.571875,
+      566.1
+    ],
+    "ans_end": [
+      513.5484375,
+      353.8125
+    ],
+    "timestamp": "2026-05-07T06:41:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91984",
+    "step_id": 0,
+    "rmse": 54.4923333415387,
+    "mae": 33.65771484374999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      586.9125,
+      634.78125
+    ],
+    "pred_end": [
+      440.184375,
+      322.59375
+    ],
+    "ans_start": [
+      590.034375,
+      626.45625
+    ],
+    "ans_end": [
+      421.453125,
+      305.94375
+    ],
+    "timestamp": "2026-05-07T06:42:04Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_90319",
+    "step_id": 0,
+    "rmse": 80.30931156084246,
+    "mae": 48.55166015625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      639.984375,
+      447.46875
+    ],
+    "pred_end": [
+      235.7015625,
+      378.78749999999997
+    ],
+    "ans_start": [
+      654.0328125,
+      434.98125
+    ],
+    "ans_end": [
+      285.6515625,
+      343.40625
+    ],
+    "timestamp": "2026-05-07T06:42:14Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_105085",
+    "step_id": 0,
+    "rmse": 63.48452196251142,
+    "mae": 38.6982421875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      444.8671875,
+      767.98125
+    ],
+    "pred_end": [
+      511.98749999999995,
+      478.6875
+    ],
+    "ans_start": [
+      447.9890625,
+      772.1437500000001
+    ],
+    "ans_end": [
+      462.0375,
+      551.53125
+    ],
+    "timestamp": "2026-05-07T06:42:22Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_98641",
+    "step_id": 0,
+    "rmse": 67.12333750450836,
+    "mae": 35.4462890625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      774.225,
+      303.86249999999995
+    ],
+    "pred_end": [
+      405.84375,
+      291.375
+    ],
+    "ans_start": [
+      791.3953125,
+      314.26875
+    ],
+    "ans_end": [
+      494.8171875,
+      233.1
+    ],
+    "timestamp": "2026-05-07T06:42:30Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_94330",
+    "step_id": 0,
+    "rmse": 62.28555730997405,
+    "mae": 36.0966796875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      159.215625,
+      280.96875
+    ],
+    "pred_end": [
+      460.4765625,
+      387.1125
+    ],
+    "ans_start": [
+      157.6546875,
+      287.2125
+    ],
+    "ans_end": [
+      558.815625,
+      357.975
+    ],
+    "timestamp": "2026-05-07T06:42:40Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_90835",
+    "step_id": 0,
+    "rmse": 85.62046132509435,
+    "mae": 51.80361328125001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      670.1624999999999
+    ],
+    "pred_end": [
+      421.453125,
+      374.625
+    ],
+    "ans_start": [
+      494.8171875,
+      649.35
+    ],
+    "ans_end": [
+      466.7203125,
+      432.90000000000003
+    ],
+    "timestamp": "2026-05-07T06:42:45Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_83283",
+    "step_id": 0,
+    "rmse": 48.48303312538929,
+    "mae": 30.08056640624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      288.7734375,
+      183.14999999999998
+    ],
+    "pred_end": [
+      611.8875,
+      593.15625
+    ],
+    "ans_start": [
+      298.1390625,
+      197.71875
+    ],
+    "ans_end": [
+      669.6421875,
+      620.2125
+    ],
+    "timestamp": "2026-05-07T06:42:50Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_85081",
+    "step_id": 0,
+    "rmse": 57.29081290527449,
+    "mae": 33.13740234374999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      101.4609375,
+      322.59375
+    ],
+    "pred_end": [
+      679.0078125,
+      786.7125
+    ],
+    "ans_start": [
+      101.4609375,
+      366.29999999999995
+    ],
+    "ans_end": [
+      749.25,
+      807.525
+    ],
+    "timestamp": "2026-05-07T06:42:56Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_98668",
+    "step_id": 0,
+    "rmse": 75.92039602298975,
+    "mae": 45.88505859375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      585.3515625,
+      301.78125
+    ],
+    "pred_end": [
+      725.8359375,
+      333.0
+    ],
+    "ans_start": [
+      549.45,
+      199.8
+    ],
+    "ans_end": [
+      654.0328125,
+      268.48125
+    ],
+    "timestamp": "2026-05-07T06:43:04Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_92308",
+    "step_id": 0,
+    "rmse": 197.02752864450744,
+    "mae": 119.11904296875002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      471.403125,
+      297.61875
+    ],
+    "pred_end": [
+      663.3984375,
+      387.1125
+    ],
+    "ans_start": [
+      482.3296875,
+      314.26875
+    ],
+    "ans_end": [
+      477.646875,
+      559.85625
+    ],
+    "timestamp": "2026-05-07T06:43:19Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_83130",
+    "step_id": 0,
+    "rmse": 81.16916691599658,
+    "mae": 51.0556640625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      204.4828125,
+      564.01875
+    ],
+    "pred_end": [
+      569.7421875,
+      366.29999999999995
+    ],
+    "ans_start": [
+      193.55625,
+      576.5062499999999
+    ],
+    "ans_end": [
+      554.1328125,
+      387.1125
+    ],
+    "timestamp": "2026-05-07T06:43:28Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_85720",
+    "step_id": 0,
+    "rmse": 57.49953403715326,
+    "mae": 33.72275390624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      366.8203125,
+      578.5875000000001
+    ],
+    "pred_end": [
+      618.13125,
+      260.15625
+    ],
+    "ans_start": [
+      366.8203125,
+      584.8312500000001
+    ],
+    "ans_end": [
+      565.059375,
+      285.13124999999997
+    ],
+    "timestamp": "2026-05-07T06:43:35Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_92114",
+    "step_id": 0,
+    "rmse": 65.77504286378623,
+    "mae": 39.38115234375003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      544.7671875,
+      697.21875
+    ],
+    "pred_end": [
+      359.015625,
+      353.8125
+    ],
+    "ans_start": [
+      555.69375,
+      688.89375
+    ],
+    "ans_end": [
+      315.309375,
+      339.24375000000003
+    ],
+    "timestamp": "2026-05-07T06:43:42Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_105367",
+    "step_id": 0,
+    "rmse": 51.999371093468156,
+    "mae": 30.698437500000004,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      430.81875,
+      283.05
+    ],
+    "pred_end": [
+      767.98125,
+      616.0500000000001
+    ],
+    "ans_start": [
+      424.575,
+      291.375
+    ],
+    "ans_end": [
+      724.275,
+      628.5375
+    ],
+    "timestamp": "2026-05-07T06:43:52Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_83289",
+    "step_id": 0,
+    "rmse": 53.941188601084356,
+    "mae": 33.267480468749994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      246.628125,
+      108.22500000000001
+    ],
+    "pred_end": [
+      343.40625,
+      566.1
+    ],
+    "ans_start": [
+      254.4328125,
+      139.44375
+    ],
+    "ans_end": [
+      360.5765625,
+      532.8
+    ],
+    "timestamp": "2026-05-07T06:43:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_84975",
+    "step_id": 0,
+    "rmse": 286.78642553502215,
+    "mae": 158.72783203125002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      249.75,
+      522.3937500000001
+    ],
+    "pred_end": [
+      390.234375,
+      333.0
+    ],
+    "ans_start": [
+      287.2125,
+      520.3125
+    ],
+    "ans_end": [
+      721.153125,
+      678.4875000000001
+    ],
+    "timestamp": "2026-05-07T06:44:02Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_103918",
+    "step_id": 0,
+    "rmse": 47.97679086337321,
+    "mae": 26.535937500000006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      274.725,
+      532.8
+    ],
+    "pred_end": [
+      106.14375,
+      385.03125
+    ],
+    "ans_start": [
+      273.1640625,
+      543.20625
+    ],
+    "ans_end": [
+      23.4140625,
+      333.0
+    ],
+    "timestamp": "2026-05-07T06:44:09Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_104761",
+    "step_id": 0,
+    "rmse": 293.06090598699774,
+    "mae": 168.451171875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      741.4453125,
+      747.16875
+    ],
+    "pred_end": [
+      836.6625,
+      457.875
+    ],
+    "ans_start": [
+      752.371875,
+      738.84375
+    ],
+    "ans_end": [
+      1025.5359375,
+      822.09375
+    ],
+    "timestamp": "2026-05-07T06:44:17Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_94165",
+    "step_id": 0,
+    "rmse": 147.7293548938845,
+    "mae": 82.07929687499998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      585.3515625,
+      690.975
+    ],
+    "pred_end": [
+      140.484375,
+      270.5625
+    ],
+    "ans_start": [
+      585.3515625,
+      697.21875
+    ],
+    "ans_end": [
+      126.4359375,
+      108.22500000000001
+    ],
+    "timestamp": "2026-05-07T06:44:25Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91404",
+    "step_id": 0,
+    "rmse": 164.5926786618396,
+    "mae": 88.09541015625001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      390.234375,
+      378.78749999999997
+    ],
+    "pred_end": [
+      622.8140625,
+      437.0625
+    ],
+    "ans_start": [
+      391.7953125,
+      366.29999999999995
+    ],
+    "ans_end": [
+      404.2828125,
+      611.8875
+    ],
+    "timestamp": "2026-05-07T06:44:33Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_82343",
+    "step_id": 0,
+    "rmse": 44.959260458921946,
+    "mae": 27.088769531249994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      821.053125,
+      530.71875
+    ],
+    "pred_end": [
+      580.66875,
+      474.525
+    ],
+    "ans_start": [
+      821.053125,
+      536.9625
+    ],
+    "ans_end": [
+      566.6203125,
+      459.95624999999995
+    ],
+    "timestamp": "2026-05-07T06:44:38Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_105668",
+    "step_id": 0,
+    "rmse": 313.8688391296191,
+    "mae": 185.00361328125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      234.140625,
+      266.4
+    ],
+    "pred_end": [
+      387.1125,
+      753.4125
+    ],
+    "ans_start": [
+      705.54375,
+      539.0437499999999
+    ],
+    "ans_end": [
+      402.721875,
+      786.7125
+    ],
+    "timestamp": "2026-05-07T06:44:45Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_92174",
+    "step_id": 0,
+    "rmse": 121.81092378084878,
+    "mae": 72.45351562500002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      590.034375,
+      439.14375
+    ],
+    "pred_end": [
+      390.234375,
+      385.03125
+    ],
+    "ans_start": [
+      611.8875,
+      410.00624999999997
+    ],
+    "ans_end": [
+      287.2125,
+      335.08124999999995
+    ],
+    "timestamp": "2026-05-07T06:44:59Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_98692",
+    "step_id": 0,
+    "rmse": 94.60767229352658,
+    "mae": 44.324121093749994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      630.61875,
+      493.25625
+    ],
+    "pred_end": [
+      359.015625,
+      314.26875
+    ],
+    "ans_start": [
+      625.9359375,
+      495.33750000000003
+    ],
+    "ans_end": [
+      321.553125,
+      330.91875
+    ],
+    "timestamp": "2026-05-07T06:45:06Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_94412",
+    "step_id": 0,
+    "rmse": 89.15885285534168,
+    "mae": 46.437890625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      195.1171875,
+      387.1125
+    ],
+    "pred_end": [
+      362.1375,
+      191.47500000000002
+    ],
+    "ans_start": [
+      191.9953125,
+      393.35625
+    ],
+    "ans_end": [
+      238.8234375,
+      210.20625
+    ],
+    "timestamp": "2026-05-07T06:45:13Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_93814",
+    "step_id": 0,
+    "rmse": 110.46581775551662,
+    "mae": 66.50244140624997,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      426.65625
+    ],
+    "pred_end": [
+      758.615625,
+      682.65
+    ],
+    "ans_start": [
+      510.42656250000005,
+      457.875
+    ],
+    "ans_end": [
+      771.103125,
+      730.51875
+    ],
+    "timestamp": "2026-05-07T06:45:22Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_105664",
+    "step_id": 0,
+    "rmse": 68.9870412052006,
+    "mae": 39.60878906250001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      493.25625
+    ],
+    "pred_end": [
+      496.378125,
+      803.3625000000001
+    ],
+    "ans_start": [
+      483.890625,
+      503.66249999999997
+    ],
+    "ans_end": [
+      438.6234375,
+      903.2625
+    ],
+    "timestamp": "2026-05-07T06:45:27Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_80247",
+    "step_id": 0,
+    "rmse": 52.68276474495121,
+    "mae": 29.91796875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      298.1390625,
+      468.28125
+    ],
+    "pred_end": [
+      569.7421875,
+      322.59375
+    ],
+    "ans_start": [
+      296.578125,
+      447.46875
+    ],
+    "ans_end": [
+      516.6703125,
+      305.94375
+    ],
+    "timestamp": "2026-05-07T06:45:34Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_79926",
+    "step_id": 0,
+    "rmse": 95.91671988248521,
+    "mae": 58.89287109374999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      580.66875,
+      593.15625
+    ],
+    "pred_end": [
+      304.3828125,
+      249.75
+    ],
+    "ans_start": [
+      583.790625,
+      572.34375
+    ],
+    "ans_end": [
+      334.040625,
+      266.4
+    ],
+    "timestamp": "2026-05-07T06:45:38Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91348",
+    "step_id": 0,
+    "rmse": 94.5174903160625,
+    "mae": 47.25087890625001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      433.940625,
+      597.31875
+    ],
+    "pred_end": [
+      714.909375,
+      364.21875
+    ],
+    "ans_start": [
+      432.3796875,
+      555.69375
+    ],
+    "ans_end": [
+      579.1078125,
+      349.65
+    ],
+    "timestamp": "2026-05-07T06:45:48Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91380",
+    "step_id": 0,
+    "rmse": 72.60596933336069,
+    "mae": 37.20234375000001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      683.690625,
+      759.65625
+    ],
+    "pred_end": [
+      683.690625,
+      395.4375
+    ],
+    "ans_start": [
+      686.8125,
+      740.9250000000001
+    ],
+    "ans_end": [
+      705.54375,
+      526.55625
+    ],
+    "timestamp": "2026-05-07T06:46:01Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_86885",
+    "step_id": 0,
+    "rmse": 220.7743480148771,
+    "mae": 99.08701171875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      390.234375,
+      753.4125
+    ],
+    "pred_end": [
+      580.66875,
+      622.29375
+    ],
+    "ans_start": [
+      327.796875,
+      347.56874999999997
+    ],
+    "ans_end": [
+      615.009375,
+      678.4875000000001
+    ],
+    "timestamp": "2026-05-07T06:46:06Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_91540",
+    "step_id": 0,
+    "rmse": 70.68570266826626,
+    "mae": 41.91767578125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      680.56875,
+      457.875
+    ],
+    "pred_end": [
+      299.7,
+      524.475
+    ],
+    "ans_start": [
+      686.8125,
+      449.55
+    ],
+    "ans_end": [
+      307.5046875,
+      547.3687500000001
+    ],
+    "timestamp": "2026-05-07T06:46:13Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_104647",
+    "step_id": 0,
+    "rmse": 94.27622435145729,
+    "mae": 54.210058593750006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      398.0390625,
+      280.96875
+    ],
+    "pred_end": [
+      335.6015625,
+      478.6875
+    ],
+    "ans_start": [
+      410.5265625,
+      278.8875
+    ],
+    "ans_end": [
+      369.9421875,
+      499.5
+    ],
+    "timestamp": "2026-05-07T06:46:28Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_90689",
+    "step_id": 0,
+    "rmse": 71.17853130106205,
+    "mae": 42.698144531250016,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      643.10625,
+      628.5375
+    ],
+    "pred_end": [
+      390.234375,
+      343.40625
+    ],
+    "ans_start": [
+      636.8625,
+      643.10625
+    ],
+    "ans_end": [
+      379.3078125,
+      385.03125
+    ],
+    "timestamp": "2026-05-07T06:46:37Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_99092",
+    "step_id": 0,
+    "rmse": 105.33902932697043,
+    "mae": 53.16943359375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      335.6015625,
+      378.78749999999997
+    ],
+    "pred_end": [
+      549.45,
+      641.0250000000001
+    ],
+    "ans_start": [
+      344.9671875,
+      372.54375
+    ],
+    "ans_end": [
+      596.278125,
+      801.28125
+    ],
+    "timestamp": "2026-05-07T06:46:47Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_80594",
+    "step_id": 0,
+    "rmse": 60.46072668882439,
+    "mae": 31.05615234375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      463.5984375,
+      266.4
+    ],
+    "pred_end": [
+      424.575,
+      524.475
+    ],
+    "ans_start": [
+      480.76875,
+      249.75
+    ],
+    "ans_end": [
+      351.2109375,
+      522.3937500000001
+    ],
+    "timestamp": "2026-05-07T06:46:57Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_90668",
+    "step_id": 0,
+    "rmse": 122.72441973196435,
+    "mae": 65.33173828124998,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      593.15625,
+      645.1875
+    ],
+    "pred_end": [
+      251.31093750000002,
+      343.40625
+    ],
+    "ans_start": [
+      597.8390625,
+      657.675
+    ],
+    "ans_end": [
+      304.3828125,
+      378.78749999999997
+    ],
+    "timestamp": "2026-05-07T06:47:15Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_99336",
+    "step_id": 0,
+    "rmse": 63.74093585033226,
+    "mae": 38.37304687499999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      106.14375,
+      239.34375
+    ],
+    "pred_end": [
+      480.76875,
+      432.90000000000003
+    ],
+    "ans_start": [
+      104.5828125,
+      251.83124999999998
+    ],
+    "ans_end": [
+      408.965625,
+      441.22499999999997
+    ],
+    "timestamp": "2026-05-07T06:47:24Z"
+  },
+  {
+    "episode_id": "fsd_pointbridge_100258",
+    "step_id": 0,
+    "rmse": 80.3733356100604,
+    "mae": 48.48662109375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      424.575,
+      407.925
+    ],
+    "pred_end": [
+      772.6640625,
+      314.26875
+    ],
+    "ans_start": [
+      421.453125,
+      424.575
+    ],
+    "ans_end": [
+      802.321875,
+      345.4875
+    ],
+    "timestamp": "2026-05-07T06:47:31Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_565",
+    "step_id": 0,
+    "rmse": 48.728318153007834,
+    "mae": 29.23505859375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      413.6484375,
+      477.3
+    ],
+    "pred_end": [
+      534.62109375,
+      488.4
+    ],
+    "ans_start": [
+      413.6484375,
+      478.6875
+    ],
+    "ans_end": [
+      570.52265625,
+      528.6375
+    ],
+    "timestamp": "2026-05-07T06:47:58Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_1643",
+    "step_id": 0,
+    "rmse": 60.25489178375032,
+    "mae": 30.85561523437501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      624.375,
+      344.1
+    ],
+    "pred_end": [
+      499.5,
+      284.4375
+    ],
+    "ans_start": [
+      622.03359375,
+      367.6875
+    ],
+    "ans_end": [
+      496.378125,
+      346.875
+    ],
+    "timestamp": "2026-05-07T06:48:04Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_985",
+    "step_id": 0,
+    "rmse": 49.01606185334146,
+    "mae": 29.90712890624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      456.57421875,
+      781.1625
+    ],
+    "pred_end": [
+      456.57421875,
+      638.25
+    ],
+    "ans_start": [
+      459.69609375,
+      775.6125000000001
+    ],
+    "ans_end": [
+      491.6953125,
+      704.85
+    ],
+    "timestamp": "2026-05-07T06:48:14Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_760",
+    "step_id": 0,
+    "rmse": 176.818513184255,
+    "mae": 82.73510742187501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      561.9375,
+      288.59999999999997
+    ],
+    "pred_end": [
+      555.69375,
+      208.125
+    ],
+    "ans_start": [
+      559.59609375,
+      296.925
+    ],
+    "ans_end": [
+      590.81484375,
+      468.975
+    ],
+    "timestamp": "2026-05-07T06:48:38Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_1090",
+    "step_id": 0,
+    "rmse": 44.949767128889626,
+    "mae": 28.465429687499995,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      430.81875,
+      890.7750000000001
+    ],
+    "pred_end": [
+      407.4046875,
+      641.0250000000001
+    ],
+    "ans_start": [
+      437.84296875,
+      894.9375
+    ],
+    "ans_end": [
+      426.91640625,
+      690.975
+    ],
+    "timestamp": "2026-05-07T06:48:52Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_1947",
+    "step_id": 0,
+    "rmse": 63.36733455730726,
+    "mae": 36.10751953125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      390.234375,
+      413.47499999999997
+    ],
+    "pred_end": [
+      568.18125,
+      319.125
+    ],
+    "ans_start": [
+      386.33203125,
+      428.73749999999995
+    ],
+    "ans_end": [
+      565.059375,
+      349.65
+    ],
+    "timestamp": "2026-05-07T06:49:03Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_2649",
+    "step_id": 0,
+    "rmse": 102.7167121082036,
+    "mae": 57.70048828124999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      582.2296875,
+      553.6125000000001
+    ],
+    "pred_end": [
+      499.5,
+      659.0625
+    ],
+    "ans_start": [
+      592.37578125,
+      557.775
+    ],
+    "ans_end": [
+      348.0890625,
+      779.775
+    ],
+    "timestamp": "2026-05-07T06:49:31Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_2579",
+    "step_id": 0,
+    "rmse": 132.450403813819,
+    "mae": 65.835791015625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      538.5234375,
+      690.975
+    ],
+    "pred_end": [
+      593.15625,
+      638.25
+    ],
+    "ans_start": [
+      537.74296875,
+      703.4625000000001
+    ],
+    "ans_end": [
+      629.0578125,
+      817.2375
+    ],
+    "timestamp": "2026-05-07T06:49:39Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_2021",
+    "step_id": 0,
+    "rmse": 82.20443517595422,
+    "mae": 38.6115234375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      554.1328125,
+      432.90000000000003
+    ],
+    "pred_end": [
+      724.275,
+      485.625
+    ],
+    "ans_start": [
+      556.47421875,
+      444.0
+    ],
+    "ans_end": [
+      728.17734375,
+      566.1
+    ],
+    "timestamp": "2026-05-07T06:49:45Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_2369",
+    "step_id": 0,
+    "rmse": 61.818639570142786,
+    "mae": 29.11582031250002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      296.578125,
+      807.525
+    ],
+    "pred_end": [
+      425.35546875,
+      788.1
+    ],
+    "ans_start": [
+      285.6515625,
+      795.0374999999999
+    ],
+    "ans_end": [
+      438.6234375,
+      808.9125
+    ],
+    "timestamp": "2026-05-07T06:50:21Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5046",
+    "step_id": 0,
+    "rmse": 71.80878034793935,
+    "mae": 37.549218750000016,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      370.72265625,
+      789.4875
+    ],
+    "pred_end": [
+      391.7953125,
+      596.625
+    ],
+    "ans_start": [
+      373.0640625,
+      792.2624999999999
+    ],
+    "ans_end": [
+      398.81953125,
+      643.8000000000001
+    ],
+    "timestamp": "2026-05-07T06:50:37Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_3805",
+    "step_id": 0,
+    "rmse": 65.67783951329514,
+    "mae": 38.97465820312499,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      407.4046875,
+      692.3625
+    ],
+    "pred_end": [
+      519.01171875,
+      222.0
+    ],
+    "ans_start": [
+      409.74609375,
+      717.3375
+    ],
+    "ans_end": [
+      534.62109375,
+      277.5
+    ],
+    "timestamp": "2026-05-07T06:51:01Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_4429",
+    "step_id": 0,
+    "rmse": 86.49469365684946,
+    "mae": 47.6953125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      443.30625,
+      506.4375
+    ],
+    "pred_end": [
+      493.25625,
+      274.725
+    ],
+    "ans_start": [
+      453.45234375,
+      500.8875
+    ],
+    "ans_end": [
+      539.30390625,
+      409.3125
+    ],
+    "timestamp": "2026-05-07T06:51:23Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_3576",
+    "step_id": 0,
+    "rmse": 67.79841084263603,
+    "mae": 39.240234375000014,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      493.25625,
+      811.6875
+    ],
+    "pred_end": [
+      583.790625,
+      693.75
+    ],
+    "ans_start": [
+      494.8171875,
+      803.3625000000001
+    ],
+    "ans_end": [
+      596.278125,
+      752.025
+    ],
+    "timestamp": "2026-05-07T06:51:45Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5909",
+    "step_id": 0,
+    "rmse": 179.44672194170892,
+    "mae": 101.90537109375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      649.35,
+      534.1875
+    ],
+    "pred_end": [
+      429.2578125,
+      574.425
+    ],
+    "ans_start": [
+      648.56953125,
+      539.7375
+    ],
+    "ans_end": [
+      632.1796875,
+      444.0
+    ],
+    "timestamp": "2026-05-07T06:51:54Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5716",
+    "step_id": 0,
+    "rmse": 50.18274024824914,
+    "mae": 29.581933593750012,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      456.57421875,
+      663.225
+    ],
+    "pred_end": [
+      542.42578125,
+      513.375
+    ],
+    "ans_start": [
+      456.57421875,
+      679.875
+    ],
+    "ans_end": [
+      572.8640625,
+      523.0875
+    ],
+    "timestamp": "2026-05-07T06:52:00Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5862",
+    "step_id": 0,
+    "rmse": 349.17579148626794,
+    "mae": 179.881787109375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      295.0171875,
+      183.14999999999998
+    ],
+    "pred_end": [
+      622.8140625,
+      208.125
+    ],
+    "ans_start": [
+      774.225,
+      310.8
+    ],
+    "ans_end": [
+      672.7640625,
+      269.175
+    ],
+    "timestamp": "2026-05-07T06:52:07Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_6742",
+    "step_id": 0,
+    "rmse": 94.11002267775842,
+    "mae": 51.23994140625002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      579.88828125,
+      888.0
+    ],
+    "pred_end": [
+      616.5703125,
+      735.375
+    ],
+    "ans_start": [
+      647.7890625,
+      865.8000000000001
+    ],
+    "ans_end": [
+      590.81484375,
+      878.2875
+    ],
+    "timestamp": "2026-05-07T06:52:14Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_6087",
+    "step_id": 0,
+    "rmse": 146.32927309696046,
+    "mae": 77.629541015625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      855.39375,
+      788.1
+    ],
+    "pred_end": [
+      710.2265625,
+      568.875
+    ],
+    "ans_start": [
+      852.271875,
+      854.6999999999999
+    ],
+    "ans_end": [
+      714.909375,
+      571.65
+    ],
+    "timestamp": "2026-05-07T06:52:27Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5453",
+    "step_id": 0,
+    "rmse": 150.17243016449257,
+    "mae": 77.52114257812501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      530.71875,
+      450.9375
+    ],
+    "pred_end": [
+      688.3734375,
+      582.75
+    ],
+    "ans_start": [
+      519.01171875,
+      468.975
+    ],
+    "ans_end": [
+      750.8109375,
+      713.1750000000001
+    ],
+    "timestamp": "2026-05-07T06:52:42Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5868",
+    "step_id": 0,
+    "rmse": 81.37448105044508,
+    "mae": 47.175000000000004,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      663.3984375,
+      774.225
+    ],
+    "pred_end": [
+      663.3984375,
+      402.375
+    ],
+    "ans_start": [
+      657.93515625,
+      778.3875
+    ],
+    "ans_end": [
+      629.0578125,
+      394.05
+    ],
+    "timestamp": "2026-05-07T06:53:11Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5609",
+    "step_id": 0,
+    "rmse": 42.68478871259602,
+    "mae": 26.731054687500002,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      530.71875,
+      357.975
+    ],
+    "pred_end": [
+      516.6703125,
+      374.625
+    ],
+    "ans_start": [
+      530.71875,
+      395.4375
+    ],
+    "ans_end": [
+      498.71953125,
+      405.15
+    ],
+    "timestamp": "2026-05-07T06:53:27Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_5815",
+    "step_id": 0,
+    "rmse": 129.3716346502047,
+    "mae": 69.250341796875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      477.646875,
+      668.775
+    ],
+    "pred_end": [
+      534.62109375,
+      568.875
+    ],
+    "ans_start": [
+      476.86640625,
+      663.225
+    ],
+    "ans_end": [
+      447.9890625,
+      715.95
+    ],
+    "timestamp": "2026-05-07T06:53:34Z"
+  },
+  {
+    "episode_id": "fsd_pointdroid_6028",
+    "step_id": 0,
+    "rmse": 55.41034644150253,
+    "mae": 29.386816406249995,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      476.0859375,
+      582.75
+    ],
+    "pred_end": [
+      560.3765625,
+      610.5
+    ],
+    "ans_start": [
+      477.646875,
+      559.1625
+    ],
+    "ans_end": [
+      575.20546875,
+      668.775
+    ],
+    "timestamp": "2026-05-07T06:53:48Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3542",
+    "step_id": 0,
+    "rmse": 94.28017274053364,
+    "mae": 50.925585937499996,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      536.9625,
+      448.76953125
+    ],
+    "pred_end": [
+      287.2125,
+      351.2109375
+    ],
+    "ans_start": [
+      568.18125,
+      460.4765625
+    ],
+    "ans_end": [
+      262.2375,
+      464.37890625
+    ],
+    "timestamp": "2026-05-07T06:53:56Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_99",
+    "step_id": 0,
+    "rmse": 67.7650751233202,
+    "mae": 38.18722098214286,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      222.99107142857144,
+      267.5892857142857
+    ],
+    "pred_end": [
+      468.28125,
+      379.0848214285714
+    ],
+    "ans_start": [
+      200.6919642857143,
+      240.83035714285714
+    ],
+    "ans_end": [
+      477.2008928571429,
+      338.9464285714286
+    ],
+    "timestamp": "2026-05-07T06:54:04Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3180",
+    "step_id": 0,
+    "rmse": 81.38983187890466,
+    "mae": 39.31611328125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      608.765625,
+      476.0859375
+    ],
+    "pred_end": [
+      499.5,
+      273.1640625
+    ],
+    "ans_start": [
+      652.471875,
+      491.6953125
+    ],
+    "ans_end": [
+      493.25625,
+      265.359375
+    ],
+    "timestamp": "2026-05-07T06:54:11Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_749",
+    "step_id": 0,
+    "rmse": 57.78438330950936,
+    "mae": 34.84235491071431,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      445.9821428571429,
+      490.5803571428571
+    ],
+    "pred_end": [
+      847.3660714285714,
+      468.28125
+    ],
+    "ans_start": [
+      423.6830357142857,
+      553.0178571428572
+    ],
+    "ans_end": [
+      860.7455357142858,
+      499.5
+    ],
+    "timestamp": "2026-05-07T06:54:17Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3038",
+    "step_id": 0,
+    "rmse": 47.09888034631725,
+    "mae": 26.535937500000003,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      477.646875,
+      530.71875
+    ],
+    "pred_end": [
+      374.625,
+      359.015625
+    ],
+    "ans_start": [
+      505.74375,
+      530.71875
+    ],
+    "ans_end": [
+      374.625,
+      343.40625
+    ],
+    "timestamp": "2026-05-07T06:54:22Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_4015",
+    "step_id": 0,
+    "rmse": 60.2915266602777,
+    "mae": 34.87719726562499,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      327.796875,
+      487.79296875
+    ],
+    "pred_end": [
+      343.40625,
+      273.1640625
+    ],
+    "ans_start": [
+      321.553125,
+      546.328125
+    ],
+    "ans_end": [
+      421.453125,
+      261.45703125
+    ],
+    "timestamp": "2026-05-07T06:54:31Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3587",
+    "step_id": 0,
+    "rmse": 73.39571032397312,
+    "mae": 45.90131835937501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      815.58984375
+    ],
+    "pred_end": [
+      440.184375,
+      304.3828125
+    ],
+    "ans_start": [
+      530.71875,
+      803.8828125
+    ],
+    "ans_end": [
+      483.890625,
+      312.1875
+    ],
+    "timestamp": "2026-05-07T06:54:37Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3427",
+    "step_id": 0,
+    "rmse": 103.86724027219009,
+    "mae": 62.77895507812501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      440.184375,
+      163.8984375
+    ],
+    "pred_end": [
+      343.40625,
+      280.96875
+    ],
+    "ans_start": [
+      477.646875,
+      163.8984375
+    ],
+    "ans_end": [
+      368.38125,
+      351.2109375
+    ],
+    "timestamp": "2026-05-07T06:54:43Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_4080",
+    "step_id": 0,
+    "rmse": 96.90471103187976,
+    "mae": 61.94970703125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      452.671875,
+      628.27734375
+    ],
+    "pred_end": [
+      452.671875,
+      495.59765625
+    ],
+    "ans_start": [
+      483.890625,
+      702.421875
+    ],
+    "ans_end": [
+      487.0125,
+      597.05859375
+    ],
+    "timestamp": "2026-05-07T06:54:55Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_3458",
+    "step_id": 0,
+    "rmse": 73.84457365592887,
+    "mae": 36.535693359375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      536.9625,
+      241.9453125
+    ],
+    "pred_end": [
+      390.234375,
+      374.625
+    ],
+    "ans_start": [
+      580.66875,
+      261.45703125
+    ],
+    "ans_end": [
+      268.48125,
+      359.015625
+    ],
+    "timestamp": "2026-05-07T06:55:03Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_974",
+    "step_id": 0,
+    "rmse": 104.06363817736938,
+    "mae": 44.90947265624999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      541.6453125,
+      703.4625000000001
+    ],
+    "pred_end": [
+      668.08125,
+      884.53125
+    ],
+    "ans_start": [
+      543.20625,
+      709.7062500000001
+    ],
+    "ans_end": [
+      668.08125,
+      936.5625
+    ],
+    "timestamp": "2026-05-07T06:55:09Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_10",
+    "step_id": 0,
+    "rmse": 70.41011495733528,
+    "mae": 46.2706473214286,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      423.6830357142857,
+      450.4419642857143
+    ],
+    "pred_end": [
+      445.9821428571429,
+      312.1875
+    ],
+    "ans_start": [
+      379.0848214285714,
+      468.28125
+    ],
+    "ans_end": [
+      365.7053571428571,
+      338.9464285714286
+    ],
+    "timestamp": "2026-05-07T06:55:16Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_1711",
+    "step_id": 0,
+    "rmse": 47.75151846263814,
+    "mae": 32.340673828125006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      421.453125,
+      437.0625
+    ],
+    "pred_end": [
+      421.453125,
+      351.2109375
+    ],
+    "ans_start": [
+      446.428125,
+      452.671875
+    ],
+    "ans_end": [
+      449.55,
+      394.13671875
+    ],
+    "timestamp": "2026-05-07T06:55:24Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_292",
+    "step_id": 0,
+    "rmse": 68.87500788512956,
+    "mae": 36.79352678571429,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      602.0758928571428,
+      267.5892857142857
+    ],
+    "pred_end": [
+      267.5892857142857,
+      222.99107142857144
+    ],
+    "ans_start": [
+      602.0758928571428,
+      280.96875
+    ],
+    "ans_end": [
+      165.01339285714286,
+      316.6473214285714
+    ],
+    "timestamp": "2026-05-07T06:55:31Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_2751",
+    "step_id": 0,
+    "rmse": 132.9683191547877,
+    "mae": 77.21762695312499,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      412.0875,
+      854.61328125
+    ],
+    "pred_end": [
+      399.6,
+      265.359375
+    ],
+    "ans_start": [
+      446.428125,
+      870.22265625
+    ],
+    "ans_end": [
+      471.403125,
+      226.3359375
+    ],
+    "timestamp": "2026-05-07T06:55:37Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_8204",
+    "step_id": 0,
+    "rmse": 72.44131247518952,
+    "mae": 42.97456054687499,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      561.9375,
+      179.5078125
+    ],
+    "pred_end": [
+      630.61875,
+      359.015625
+    ],
+    "ans_start": [
+      608.765625,
+      171.703125
+    ],
+    "ans_end": [
+      611.8875,
+      405.84375
+    ],
+    "timestamp": "2026-05-07T06:55:48Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_5303",
+    "step_id": 0,
+    "rmse": 79.83893952798729,
+    "mae": 45.36474609374999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      380.86875,
+      421.453125
+    ],
+    "pred_end": [
+      483.890625,
+      351.2109375
+    ],
+    "ans_start": [
+      408.965625,
+      448.76953125
+    ],
+    "ans_end": [
+      590.034375,
+      335.6015625
+    ],
+    "timestamp": "2026-05-07T06:55:55Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_10110",
+    "step_id": 0,
+    "rmse": 100.68122501532824,
+    "mae": 65.85205078125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      850.7109375
+    ],
+    "pred_end": [
+      555.69375,
+      218.53125
+    ],
+    "ans_start": [
+      449.55,
+      909.24609375
+    ],
+    "ans_end": [
+      515.109375,
+      222.43359375
+    ],
+    "timestamp": "2026-05-07T06:56:04Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_9462",
+    "step_id": 0,
+    "rmse": 92.19694884955113,
+    "mae": 55.51083984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      568.18125,
+      296.578125
+    ],
+    "pred_end": [
+      536.9625,
+      655.59375
+    ],
+    "ans_start": [
+      593.15625,
+      284.87109375
+    ],
+    "ans_end": [
+      593.15625,
+      749.25
+    ],
+    "timestamp": "2026-05-07T06:56:08Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_7687",
+    "step_id": 0,
+    "rmse": 67.44171323778957,
+    "mae": 38.73076171874999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      649.35,
+      589.25390625
+    ],
+    "pred_end": [
+      649.35,
+      327.796875
+    ],
+    "ans_start": [
+      677.446875,
+      698.51953125
+    ],
+    "ans_end": [
+      652.471875,
+      323.89453125
+    ],
+    "timestamp": "2026-05-07T06:56:19Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_5773",
+    "step_id": 0,
+    "rmse": 97.05270908471842,
+    "mae": 61.70581054687501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      237.2625,
+      327.796875
+    ],
+    "pred_end": [
+      593.15625,
+      265.359375
+    ],
+    "ans_start": [
+      243.50625,
+      335.6015625
+    ],
+    "ans_end": [
+      677.446875,
+      296.578125
+    ],
+    "timestamp": "2026-05-07T06:56:27Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_6411",
+    "step_id": 0,
+    "rmse": 54.18991302925335,
+    "mae": 30.974853515625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      536.9625,
+      292.67578125
+    ],
+    "pred_end": [
+      421.453125,
+      511.20703125
+    ],
+    "ans_start": [
+      561.9375,
+      261.45703125
+    ],
+    "ans_end": [
+      402.721875,
+      437.0625
+    ],
+    "timestamp": "2026-05-07T06:56:35Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_6877",
+    "step_id": 0,
+    "rmse": 77.83879782282537,
+    "mae": 45.07207031249999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      702.421875,
+      355.11328125
+    ],
+    "pred_end": [
+      561.9375,
+      413.6484375
+    ],
+    "ans_start": [
+      730.51875,
+      386.33203125
+    ],
+    "ans_end": [
+      505.74375,
+      394.13671875
+    ],
+    "timestamp": "2026-05-07T06:56:42Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_9228",
+    "step_id": 0,
+    "rmse": 57.10037069183652,
+    "mae": 32.73090820312501,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      318.43125,
+      253.65234375
+    ],
+    "pred_end": [
+      421.453125,
+      632.1796875
+    ],
+    "ans_start": [
+      337.1625,
+      273.1640625
+    ],
+    "ans_end": [
+      502.62187500000005,
+      682.91015625
+    ],
+    "timestamp": "2026-05-07T06:56:47Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_6292",
+    "step_id": 0,
+    "rmse": 65.1621300495651,
+    "mae": 40.3892578125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      471.403125,
+      487.79296875
+    ],
+    "pred_end": [
+      452.671875,
+      327.796875
+    ],
+    "ans_start": [
+      505.74375,
+      515.109375
+    ],
+    "ans_end": [
+      421.453125,
+      386.33203125
+    ],
+    "timestamp": "2026-05-07T06:56:54Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11575",
+    "step_id": 0,
+    "rmse": 109.7023721137683,
+    "mae": 66.04716796874999,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      515.109375,
+      257.5546875
+    ],
+    "pred_end": [
+      577.546875,
+      850.7109375
+    ],
+    "ans_start": [
+      546.328125,
+      280.96875
+    ],
+    "ans_end": [
+      549.45,
+      952.171875
+    ],
+    "timestamp": "2026-05-07T06:56:59Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_10640",
+    "step_id": 0,
+    "rmse": 43.63301970561251,
+    "mae": 25.657910156249986,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      611.8875,
+      335.6015625
+    ],
+    "pred_end": [
+      343.40625,
+      421.453125
+    ],
+    "ans_start": [
+      652.471875,
+      327.796875
+    ],
+    "ans_end": [
+      362.1375,
+      483.890625
+    ],
+    "timestamp": "2026-05-07T06:57:06Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11946",
+    "step_id": 0,
+    "rmse": 49.8110907234897,
+    "mae": 28.389550781250005,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      390.234375,
+      628.27734375
+    ],
+    "pred_end": [
+      499.5,
+      253.65234375
+    ],
+    "ans_start": [
+      418.33125,
+      639.984375
+    ],
+    "ans_end": [
+      571.303125,
+      241.9453125
+    ],
+    "timestamp": "2026-05-07T06:57:11Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11337",
+    "step_id": 0,
+    "rmse": 74.56744825010101,
+    "mae": 41.755078125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      505.74375,
+      760.95703125
+    ],
+    "pred_end": [
+      405.84375,
+      296.578125
+    ],
+    "ans_start": [
+      511.98749999999995,
+      749.25
+    ],
+    "ans_end": [
+      427.696875,
+      277.06640625
+    ],
+    "timestamp": "2026-05-07T06:57:19Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_14210",
+    "step_id": 0,
+    "rmse": 69.62594919869207,
+    "mae": 33.7552734375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      140.484375,
+      312.1875
+    ],
+    "pred_end": [
+      296.578125,
+      351.2109375
+    ],
+    "ans_start": [
+      99.9,
+      323.89453125
+    ],
+    "ans_end": [
+      287.2125,
+      448.76953125
+    ],
+    "timestamp": "2026-05-07T06:57:27Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11991",
+    "step_id": 0,
+    "rmse": 67.8699367577868,
+    "mae": 37.023486328125,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      253.65234375
+    ],
+    "pred_end": [
+      452.671875,
+      624.375
+    ],
+    "ans_start": [
+      511.98749999999995,
+      226.3359375
+    ],
+    "ans_end": [
+      446.428125,
+      729.73828125
+    ],
+    "timestamp": "2026-05-07T06:57:32Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_13468",
+    "step_id": 0,
+    "rmse": 77.45685424568998,
+    "mae": 47.364697265625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      850.7109375
+    ],
+    "pred_end": [
+      508.865625,
+      288.7734375
+    ],
+    "ans_start": [
+      552.571875,
+      858.515625
+    ],
+    "ans_end": [
+      536.9625,
+      319.9921875
+    ],
+    "timestamp": "2026-05-07T06:57:38Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_13046",
+    "step_id": 0,
+    "rmse": 78.28844645532745,
+    "mae": 45.36474609375001,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      359.015625,
+      476.0859375
+    ],
+    "pred_end": [
+      380.86875,
+      265.359375
+    ],
+    "ans_start": [
+      349.65,
+      515.109375
+    ],
+    "ans_end": [
+      399.6,
+      241.9453125
+    ],
+    "timestamp": "2026-05-07T06:57:46Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11541",
+    "step_id": 0,
+    "rmse": 82.12417289839951,
+    "mae": 50.584130859374994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      483.890625,
+      639.984375
+    ],
+    "pred_end": [
+      483.890625,
+      784.37109375
+    ],
+    "ans_start": [
+      505.74375,
+      546.328125
+    ],
+    "ans_end": [
+      508.865625,
+      718.03125
+    ],
+    "timestamp": "2026-05-07T06:57:52Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_13316",
+    "step_id": 0,
+    "rmse": 61.108759397967575,
+    "mae": 33.755273437499994,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      440.184375,
+      850.7109375
+    ],
+    "pred_end": [
+      408.965625,
+      218.53125
+    ],
+    "ans_start": [
+      424.575,
+      874.125
+    ],
+    "ans_end": [
+      346.528125,
+      230.23828125
+    ],
+    "timestamp": "2026-05-07T06:57:58Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_11448",
+    "step_id": 0,
+    "rmse": 53.734154017139055,
+    "mae": 33.706494140625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      543.20625,
+      390.234375
+    ],
+    "pred_end": [
+      380.86875,
+      304.3828125
+    ],
+    "ans_start": [
+      580.66875,
+      421.453125
+    ],
+    "ans_end": [
+      399.6,
+      261.45703125
+    ],
+    "timestamp": "2026-05-07T06:58:05Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_13032",
+    "step_id": 0,
+    "rmse": 53.21515012436579,
+    "mae": 31.70654296875,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      421.453125,
+      241.9453125
+    ],
+    "pred_end": [
+      249.75,
+      487.79296875
+    ],
+    "ans_start": [
+      455.79375,
+      241.9453125
+    ],
+    "ans_end": [
+      193.55625,
+      476.0859375
+    ],
+    "timestamp": "2026-05-07T06:58:12Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_18948",
+    "step_id": 0,
+    "rmse": 46.241538502102,
+    "mae": 26.779833984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      511.98749999999995,
+      296.578125
+    ],
+    "pred_end": [
+      296.578125,
+      370.72265625
+    ],
+    "ans_start": [
+      543.20625,
+      296.578125
+    ],
+    "ans_end": [
+      252.871875,
+      331.69921875
+    ],
+    "timestamp": "2026-05-07T06:58:17Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_15991",
+    "step_id": 0,
+    "rmse": 95.665939123287,
+    "mae": 49.706103515625,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      608.765625,
+      304.3828125
+    ],
+    "pred_end": [
+      349.65,
+      476.0859375
+    ],
+    "ans_start": [
+      671.203125,
+      327.796875
+    ],
+    "ans_end": [
+      359.015625,
+      491.6953125
+    ],
+    "timestamp": "2026-05-07T06:58:32Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_18660",
+    "step_id": 0,
+    "rmse": 66.9180842500353,
+    "mae": 43.316015625000006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      680.56875,
+      491.6953125
+    ],
+    "pred_end": [
+      390.234375,
+      280.96875
+    ],
+    "ans_start": [
+      718.03125,
+      561.9375
+    ],
+    "ans_end": [
+      402.721875,
+      280.96875
+    ],
+    "timestamp": "2026-05-07T06:58:39Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_19805",
+    "step_id": 0,
+    "rmse": 56.37975198007127,
+    "mae": 31.852880859375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      343.40625,
+      241.9453125
+    ],
+    "pred_end": [
+      343.40625,
+      148.2890625
+    ],
+    "ans_start": [
+      359.015625,
+      296.578125
+    ],
+    "ans_end": [
+      362.1375,
+      195.1171875
+    ],
+    "timestamp": "2026-05-07T06:58:50Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_16263",
+    "step_id": 0,
+    "rmse": 67.1157747375975,
+    "mae": 44.291601562500006,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      515.109375,
+      257.5546875
+    ],
+    "pred_end": [
+      471.403125,
+      593.15625
+    ],
+    "ans_start": [
+      536.9625,
+      269.26171875
+    ],
+    "ans_end": [
+      540.084375,
+      647.7890625
+    ],
+    "timestamp": "2026-05-07T06:58:55Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_18056",
+    "step_id": 0,
+    "rmse": 56.910703439422086,
+    "mae": 27.852978515624997,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      452.671875,
+      448.76953125
+    ],
+    "pred_end": [
+      452.671875,
+      241.9453125
+    ],
+    "ans_start": [
+      440.184375,
+      546.328125
+    ],
+    "ans_end": [
+      462.0375,
+      249.75
+    ],
+    "timestamp": "2026-05-07T06:59:07Z"
+  },
+  {
+    "episode_id": "fsd_pointrtx_15919",
+    "step_id": 0,
+    "rmse": 80.20764225485857,
+    "mae": 45.511083984375,
+    "pred_traj_length": 8,
+    "ans_traj_length": 8,
+    "pred_start": [
+      440.184375,
+      319.9921875
+    ],
+    "pred_end": [
+      508.865625,
+      764.859375
+    ],
+    "ans_start": [
+      483.890625,
+      308.28515625
+    ],
+    "ans_end": [
+      483.890625,
+      803.8828125
+    ],
+    "timestamp": "2026-05-07T06:59:13Z"
+  }
+]

@@ -245,3 +245,35 @@ python hf_inference_crpe.py
 3. **3D 理解有严重偏差**: Open6DoR 中 left/right 和 front/behind 的表现截然相反，这是 2D→3D 映射的已知局限
 4. **Affordance 和轨迹是弱项**: Part-Affordance (44.61%) 和 VTG (RMSE 71.83) 还有较大提升空间
 5. **3 个评估失败**: BLINK (进程被中断)、SAT (数据格式/多卡NCCL)、CRPE (未运行)，需要后续补跑
+
+## codex review
+
+### 主要问题
+1. 当前脚本会在汇总阶段出错
+eval/hf_inference_roborefit_degrade.py (line 154) 的 process_sample() 返回值里没有 ids_detectable，但后面在 第 220 行 (line 220) 用了 r["ids_detectable"] 分组。
+所以当前文件按理会 KeyError，也确实没有生成 logs/results/ 结果 JSON。报告数字应该是从 log 另行解析/手算出来的。
+
+2. 报告的实验筛选描述和实际结果不一致
+报告 第 39 行 (line 39) 写的是“只有退化后 IDS 能检测为 ambiguous 的样本才纳入实验”。
+但实际统计是纳入全部 1428 条可退化样本，再分成 350 detectable 和 1078 undetectable。报告后面的整体指标也是按 1428 算的。这里需要改成：“纳入所有可退化且原始指令 resolved 的样本，按退化后 IDS 是否 detectable 分组。”
+
+3. 表格数字没算错
+我从 log 反解 1428 条样本，没有缺失、没有重复，重算结果和报告一致：
+upper=0.8487，degraded=0.5686，with_IDS=0.5998，gain=+0.0312；detectable 子集 0.7400 -> 0.8671。
+直接 baseline 的 2000 样本分组也对：resolved 1756 条 0.8468，ambiguous 244 条 0.9016。
+
+4. “IDS 检测到歧义”这个说法要收敛一点
+当前 resolver 无 MCPStateTracker、无 candidate extractor；在 resolver.py (line 135) 这里，触发后其实是因为 candidate_extractor_unavailable 直接问澄清。
+所以这更准确地说是：文本启发式认为应询问澄清，不是证明图像里真实存在多候选歧义。
+
+5. 退化函数问题比报告里写得更严重
+你报告提到了悬挂介词，这个是对的，但我还看到很多退化样本变成明显坏句：
+orange -> ""：log 第 9-10 行 (line 9)
+green and white pill box -> and pill box：log 第 31-32 行 (line 31)
+screwdriver on the right -> screwdriver on the：log 第 33-34 行 (line 33)
+我粗略数了一下，类似坏退化有 527/1428 条。这个会影响 degraded baseline，也会影响 IDS 覆盖率判断。
+
+### 我的判断
+这个实验的方向是对的：它确实支持“把退化指令恢复成具体指令后，VLM 定位会变好”，尤其 detectable 子集的 +12.7 个百分点是有信号的。
+但现在报告里“证明 IDS 消歧机制有效”这句话有点强。更严谨的写法应该是：在文本启发式可拦截的退化指令子集上，oracle 澄清为原始具体指令可显著恢复 VLM 定位准确率。
+建议你先修三件事：给 process_sample() 返回 ids_detectable；把退化函数改成短语级/规则级，过滤坏句；报告里区分“真实歧义检测”和“文本启发式可触发澄清”。这样这个实验就稳很多。

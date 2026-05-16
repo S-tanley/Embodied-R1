@@ -1,0 +1,121 @@
+{
+  "mutations": {
+    "saveReport": "mutation SaveReport($entity: String!, $project: String!, $report: ReportInput!) { saveReport(entity: $entity, project: $project, report: $report) { id url } }",
+    "createReport": "mutation CreateReport($entity: String!, $project: String!, $report: ReportInput!) { createReport(entity: $entity, project: $project, report: $report) { id url } }"
+  },
+  "variables": {
+    "entity": "sanjabai772-university",
+    "project": "embodied_exmem",
+    "report": {
+      "title": "Embodied-R1 Test Dashboard",
+      "description": "Auto-generated dashboard: running metrics, per-sample distributions and top/bottom images.",
+      "panels": [
+        {
+          "panelType": "CHART",
+          "title": "Running Avg RMSE / MAE",
+          "chart": {
+            "type": "line",
+            "xAxis": {
+              "field": "test/sample_idx"
+            },
+            "series": [
+              {
+                "metric": "test/running_avg_rmse",
+                "name": "running_avg_rmse"
+              },
+              {
+                "metric": "test/running_avg_mae",
+                "name": "running_avg_mae"
+              }
+            ]
+          }
+        },
+        {
+          "panelType": "CHART",
+          "title": "Running Median RMSE & High-Error Rate",
+          "chart": {
+            "type": "line",
+            "xAxis": {
+              "field": "test/sample_idx"
+            },
+            "series": [
+              {
+                "metric": "test/running_median_rmse",
+                "name": "running_median_rmse"
+              },
+              {
+                "metric": "test/running_high_error_rate",
+                "name": "running_high_error_rate"
+              }
+            ]
+          }
+        },
+        {
+          "panelType": "CHART",
+          "title": "Per-sample RMSE (colored by retrieval_score)",
+          "chart": {
+            "type": "scatter",
+            "xAxis": {
+              "field": "test/sample_idx"
+            },
+            "series": [
+              {
+                "metric": "test/rmse",
+                "name": "rmse",
+                "color": "test/retrieval_score"
+              }
+            ]
+          }
+        },
+        {
+          "panelType": "CHART",
+          "title": "RMSE Distribution",
+          "chart": {
+            "type": "histogram",
+            "series": [
+              {
+                "metric": "test/rmse",
+                "name": "rmse"
+              }
+            ]
+          }
+        },
+        {
+          "panelType": "CHART",
+          "title": "Retrieval Score & Memory Used",
+          "chart": {
+            "type": "line",
+            "xAxis": {
+              "field": "test/sample_idx"
+            },
+            "series": [
+              {
+                "metric": "test/retrieval_score",
+                "name": "retrieval_score"
+              },
+              {
+                "metric": "test/running_memory_used_rate",
+                "name": "running_memory_used_rate"
+              }
+            ]
+          }
+        },
+        {
+          "panelType": "IMAGE_GRID",
+          "title": "Top10 Worst Images",
+          "imageSeries": {
+            "field": "test/top10_worst_images"
+          }
+        },
+        {
+          "panelType": "IMAGE_GRID",
+          "title": "Top10 Best Images",
+          "imageSeries": {
+            "field": "test/top10_best_images"
+          }
+        }
+      ],
+      "createdAt": "2026-05-15T17:00:00.913517Z"
+    }
+  }
+}
